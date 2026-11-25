@@ -274,13 +274,10 @@ async function render(D) {
       links.innerHTML += `<a href="${v}" target="_blank">${label}</a>`;
     }
   }
-  // metrics（完整版显示数字；分享版不显示，改放 ResearchGate 链接）
+  // metrics（完整版显示数字；分享版不显示——ResearchGate 链接已在 h-links 区）
   const pubs = D.publications;
   if (window.__SHARE__) {
-    const rg = p.links && p.links.researchgate;
-    document.getElementById('h-metrics').innerHTML = rg
-      ? `<div style="padding:14px 0;"><a href="${rg}" target="_blank" style="color:var(--blue);font-size:1rem;">View full publication list &amp; metrics on ResearchGate →</a></div>`
-      : '';
+    document.getElementById('h-metrics').innerHTML = '';
   } else {
     const nCorr = pubs.filter(x => x.role.includes('corresponding')).length;
     const nFirst = pubs.filter(x => x.role.includes('first')).length;
@@ -319,10 +316,9 @@ async function render(D) {
   // recent pubs (最近5篇)
   const recent = pubs.slice(0, 5).map(renderPubItem).join('');
   document.getElementById('h-recent-pubs').innerHTML = recent;
-  // home news（最新3条，照片小图放右侧）
+  // home news（最新3条，不显示照片，只记录事情）
   document.getElementById('h-news').innerHTML = D.news.slice(0, 3).map(n => {
-    const photo = (n.photos && n.photos[0]) ? `<img src="${encodeURI(n.photos[0])}" loading="lazy" style="width:110px;height:82px;object-fit:cover;border-radius:6px;margin-left:12px;flex-shrink:0;border:1px solid #e8e8e8;" />` : '';
-    return `<div class="news-item" style="align-items:flex-start;"><div class="news-date">${n.date||''}</div><div class="news-body" style="flex:1;">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.9rem;color:#444;margin-top:3px">${n.detail}</div>` : ''}</div>${photo}</div>`;
+    return `<div class="news-item" style="align-items:flex-start;"><div class="news-date">${n.date||''}</div><div class="news-body" style="flex:1;">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.9rem;color:#444;margin-top:3px">${n.detail}</div>` : ''}</div></div>`;
   }).join('') || '<span class="placeholder">待填写</span>';
   // funding (只显示省部级以上：national + provincial)
   const majorFunding = D.funding.filter(f => !f.level || f.level === 'national' || f.level === 'provincial');
@@ -363,11 +359,11 @@ async function render(D) {
     }
     return `<div class="funding-item"><div class="fund-name">${name}</div></div>`;
   }).join('') : '<span class="placeholder">待填写</span>';
-  const awardsShown = window.__SHARE__ ? [] : D.awards;
+  const awardsShown = window.__SHARE__ ? [] : D.awards.slice(0, 2);
   document.getElementById('awards-list').innerHTML = awardsShown.length ? awardsShown.map(a => `<div class="funding-item"><div class="fund-name">${typeof a === 'string' ? a : a.name}</div><div class="fund-meta">${typeof a === 'object' ? (a.year||'') + (a.level ? ' · ' + a.level : '') : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
   // news
   document.getElementById('news-list').innerHTML = D.news.length ? D.news.map(n => {
-    const photo = (n.photos && n.photos[0]) ? `<img src="${encodeURI(n.photos[0])}" loading="lazy" style="width:130px;height:95px;object-fit:cover;border-radius:6px;margin-left:14px;flex-shrink:0;border:1px solid #e8e8e8;" />` : '';
+    const photo = (n.photos && n.photos[0]) ? `<img src="${encodeURI(n.photos[0])}" loading="lazy" style="width:280px;max-height:210px;object-fit:cover;border-radius:6px;margin-left:16px;flex-shrink:0;border:1px solid #e8e8e8;" />` : '';
     return `<div class="news-item" style="align-items:flex-start;"><div class="news-date">${n.date||''}</div><div class="news-body" style="flex:1;">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.92rem;color:#444;margin-top:4px">${n.detail}</div>` : ''}</div>${photo}</div>`;
   }).join('') : '<span class="placeholder">待填写（学术会议、交流经历等，在 data.json 的 news 数组）</span>';
   // contact
