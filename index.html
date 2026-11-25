@@ -171,6 +171,7 @@ footer { background: #fff; color: var(--muted); text-align: center; padding: 24p
   <section id="sec-funding" class="section hidden">
     <h2>Funding &amp; Grants</h2>
     <div id="funding-list"></div>
+    <div id="funding-logos"></div>
   </section>
 
   <!-- Teaching -->
@@ -316,12 +317,23 @@ async function render(D) {
   // 完整版显示标题+简洁信息；分享版只显示简洁（无具体标题）
   document.getElementById('funding-list').innerHTML = majorFunding.map(f => {
     const short = f.short || `${f.agency} · ${f.grant_id} · ${f.period}${f.amount ? ' · ' + f.amount : ''}`;
-    const logo = f.logo ? `<img src="${f.logo}" style="height:20px;vertical-align:middle;margin-right:8px;" />` : '';
     if (window.__SHARE__) {
-      return `<div class="funding-item"><div class="fund-name">${logo}${short}</div></div>`;
+      return `<div class="funding-item"><div class="fund-name">${short}</div></div>`;
     }
-    return `<div class="funding-item"><div class="fund-name">${logo}${f.name}</div><div class="fund-meta">${short}</div></div>`;
+    return `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${short}</div></div>`;
   }).join('') || '<span class="placeholder">待填写</span>';
+  // Funding 页面底部 logo 墙（资助机构，去重）
+  const seenAgency = new Set();
+  const logos = [];
+  for (const f of D.funding) {
+    if (f.logo && !seenAgency.has(f.agency)) {
+      seenAgency.add(f.agency);
+      logos.push(f);
+    }
+  }
+  document.getElementById('funding-logos').innerHTML = logos.length
+    ? `<h3 style="margin-top:32px;">Funding Sources</h3><div style="display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:10px;">` + logos.map(f => `<img src="${f.logo}" title="${f.agency}" style="height:44px;object-fit:contain;" />`).join('') + `</div>`
+    : '';
   // publications 完整（带筛选）
   const filters = [['all','All'],['corresponding','Corresponding'],['first','First author'],['co-author','Co-author']];
   document.getElementById('pub-filters').innerHTML = filters.map(([k,l],i) => `<button data-f="${k}" class="${i===0?'active':''}">${l}</button>`).join('');
