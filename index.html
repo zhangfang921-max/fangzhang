@@ -313,7 +313,7 @@ async function render(D) {
   // vision & mission
   const vis = D.research.vision || '';
   const mis = D.research.mission || '';
-  document.getElementById('research-vision').innerHTML = (vis || mis) ? `<div style="display:grid;grid-template-columns:2fr 3fr;gap:16px;margin-bottom:26px;">${vis?`<div style="background:#f4f8fc;border-radius:8px;padding:16px;"><h3 style="margin-top:0;">Vision</h3><p style="color:#000;">${vis}</p></div>`:''}${mis?`<div style="background:#f4f8fc;border-radius:8px;padding:16px;"><h3 style="margin-top:0;">Mission</h3><p style="color:#000;">${mis}</p></div>`:''}</div>` : '';
+  document.getElementById('research-vision').innerHTML = (vis || mis) ? `<div style="display:grid;grid-template-columns:1fr 2fr;gap:16px;margin-bottom:26px;">${vis?`<div style="background:#f4f8fc;border-radius:8px;padding:16px;"><h3 style="margin-top:0;">Vision</h3><p style="color:#000;">${vis}</p></div>`:''}${mis?`<div style="background:#f4f8fc;border-radius:8px;padding:16px;"><h3 style="margin-top:0;">Mission</h3><p style="color:#000;">${mis}</p></div>`:''}</div>` : '';
   // selected publications（近5年代表性论文：IF≥10 或老牌期刊）
   const selectedPubs = D.publications.filter(p => {
     const y = parseInt(p.year||0, 10); const ifv = parseFloat(p.if||0);
@@ -370,7 +370,10 @@ async function render(D) {
     }
     return `<div class="funding-item"><div class="fund-name">${name}</div></div>`;
   }).join('') : '<span class="placeholder">待填写</span>';
-  const awardsShown = D.awards.slice(0, 2);
+  const awardsShown = D.awards.filter(a => {
+    const m = String(a.year || '').match(/\d{4}/);
+    return m && parseInt(m[0], 10) >= 2020;
+  });
   document.getElementById('awards-list').innerHTML = awardsShown.length ? awardsShown.map(a => `<div class="funding-item"><div class="fund-name">${typeof a === 'string' ? a : a.name}</div><div class="fund-meta">${typeof a === 'object' ? (a.year||'') + (a.level ? ' · ' + a.level : '') : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
   // news
   document.getElementById('news-list').innerHTML = D.news.length ? D.news.map(n => {
