@@ -41,7 +41,7 @@ header {
 .brand small { font-weight: 300; opacity: 0.6; }
 nav ul { display: flex; list-style: none; gap: 2px; flex-wrap: wrap; }
 nav ul li a {
-  color: var(--text); padding: 14px 13px; display: block; font-size: 0.9rem;
+  color: var(--text); padding: 14px 13px; display: block; font-size: 1.05rem;
   border-bottom: 2px solid transparent; cursor: pointer;
 }
 nav ul li a:hover { color: var(--blue); text-decoration: none; }
@@ -144,12 +144,12 @@ footer { background: #fff; color: var(--muted); text-align: center; padding: 24p
       </div>
     </div>
     <div id="h-bio" style="margin-top:26px;"></div>
+    <h3>News &amp; Updates</h3>
+    <div id="h-news"></div>
     <h3>Research Directions</h3>
     <div class="directions" id="h-directions"></div>
     <h3 style="margin-top:28px;">Recent Publications</h3>
     <div id="h-recent-pubs"></div>
-    <h3 style="margin-top:28px;">News &amp; Updates</h3>
-    <div id="h-news"></div>
   </section>
 
   <!-- Research -->
@@ -293,9 +293,12 @@ async function render(D) {
   }
   // bio
   const bio = p.bio || '<span class="placeholder">Bio 待填写（在 data.json 的 profile.bio）</span>';
-  document.getElementById('h-bio').innerHTML = `<p style="color:#4a5568;">${bio}</p>`;
-  // directions
-  const dirs = D.research.directions.map(d => `<div class="direction"><h4>${d.name}</h4><p>${d.desc || ''}</p></div>`).join('');
+  document.getElementById('h-bio').innerHTML = `<p style="color:#000;">${bio}</p>`;
+  // directions（含配图）
+  const dirs = D.research.directions.map(d => {
+    const img = d.image ? `<img src="${encodeURI(d.image)}" style="width:100%;height:140px;object-fit:cover;border-radius:6px;margin-bottom:10px;" />` : '';
+    return `<div class="direction">${img}<h4>${d.name}</h4><p>${d.desc || ''}</p></div>`;
+  }).join('');
   document.getElementById('h-directions').innerHTML = dirs;
   document.getElementById('research-directions').innerHTML = dirs;
   // statement
@@ -303,17 +306,21 @@ async function render(D) {
   // recent pubs (最近5篇)
   const recent = pubs.slice(0, 5).map(renderPubItem).join('');
   document.getElementById('h-recent-pubs').innerHTML = recent;
-  // home news（最新3条）
-  document.getElementById('h-news').innerHTML = D.news.slice(0, 3).map(n => `<div class="news-item"><div class="news-date">${n.date||''}</div><div class="news-body">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}</div></div>`).join('') || '<span class="placeholder">待填写</span>';
+  // home news（最新3条，带配图）
+  document.getElementById('h-news').innerHTML = D.news.slice(0, 3).map(n => {
+    const photos = (n.photos || []).map(p => `<img src="${encodeURI(p)}" loading="lazy" style="max-width:170px;border-radius:6px;margin:6px 6px 0 0;display:inline-block;border:1px solid #e8e8e8;" />`).join('');
+    return `<div class="news-item"><div class="news-date">${n.date||''}</div><div class="news-body">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.9rem;color:#444;margin-top:3px">${n.detail}</div>` : ''}${photos ? `<div style="margin-top:8px">${photos}</div>` : ''}</div></div>`;
+  }).join('') || '<span class="placeholder">待填写</span>';
   // funding (只显示省部级以上：national + provincial)
   const majorFunding = D.funding.filter(f => !f.level || f.level === 'national' || f.level === 'provincial');
   // 完整版显示标题+简洁信息；分享版只显示简洁（无具体标题）
   document.getElementById('funding-list').innerHTML = majorFunding.map(f => {
     const short = f.short || `${f.agency} · ${f.grant_id} · ${f.period}${f.amount ? ' · ' + f.amount : ''}`;
+    const logo = f.logo ? `<img src="${f.logo}" style="height:20px;vertical-align:middle;margin-right:8px;" />` : '';
     if (window.__SHARE__) {
-      return `<div class="funding-item"><div class="fund-name">${short}</div></div>`;
+      return `<div class="funding-item"><div class="fund-name">${logo}${short}</div></div>`;
     }
-    return `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${short}</div></div>`;
+    return `<div class="funding-item"><div class="fund-name">${logo}${f.name}</div><div class="fund-meta">${short}</div></div>`;
   }).join('') || '<span class="placeholder">待填写</span>';
   // publications 完整（带筛选）
   const filters = [['all','All'],['corresponding','Corresponding'],['first','First author'],['co-author','Co-author']];
@@ -347,9 +354,6 @@ function renderPubList(filter) {
   const byYear = {};
   pubs.forEach(p => { (byYear[p.year] = byYear[p.year] || []).push(p); });
   let html = '';
-  if (window.__SHARE__) {
-    html += `<div class="pub-year-group" style="color:#718096;font-weight:400;font-size:0.85rem">Showing ${pubs.length} publications (${Object.keys(byYear).length} years); ${D.publications.length} total — full list in complete version</div>`;
-  }
   for (const year of Object.keys(byYear).sort().reverse()) {
     html += `<div class="pub-year-group">${year}</div>`;
     html += byYear[year].map(renderPubItem).join('');
