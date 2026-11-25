@@ -12,8 +12,8 @@
   --blue: #0066cc;
   --light: #fafafa;
   --border: #e8e8e8;
-  --text: #333333;
-  --muted: #666666;
+  --text: #000000;
+  --muted: #444444;
   --accent: #0066cc;
   --navy: #1a1a1a;
 }
@@ -148,8 +148,6 @@ footer { background: #fff; color: var(--muted); text-align: center; padding: 24p
     <div class="directions" id="h-directions"></div>
     <h3 style="margin-top:28px;">Recent Publications</h3>
     <div id="h-recent-pubs"></div>
-    <h3 style="margin-top:28px;">Funding</h3>
-    <div id="h-funding"></div>
   </section>
 
   <!-- Research -->
@@ -298,10 +296,14 @@ async function render(D) {
   document.getElementById('h-recent-pubs').innerHTML = recent;
   // funding (只显示省部级以上：national + provincial)
   const majorFunding = D.funding.filter(f => !f.level || f.level === 'national' || f.level === 'provincial');
-  const fundingHome = majorFunding.map(f => `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${f.agency}${f.grant_id ? ' · ' + f.grant_id : ''}${f.role ? ' · ' + f.role : ''}</div></div>`).join('');
-  document.getElementById('h-funding').innerHTML = fundingHome || '<span class="placeholder">待填写</span>';
-  // 完整 funding
-  document.getElementById('funding-list').innerHTML = majorFunding.map(f => `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${f.agency} · ${f.grant_id} · ${f.role} · ${f.period}${f.amount ? ' · ' + f.amount : ''}</div></div>`).join('') || '<span class="placeholder">待填写</span>';
+  // 完整版显示标题+简洁信息；分享版只显示简洁（无具体标题）
+  document.getElementById('funding-list').innerHTML = majorFunding.map(f => {
+    const short = f.short || `${f.agency} · ${f.grant_id} · ${f.period}${f.amount ? ' · ' + f.amount : ''}`;
+    if (window.__SHARE__) {
+      return `<div class="funding-item"><div class="fund-name">${short}</div></div>`;
+    }
+    return `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${short}</div></div>`;
+  }).join('') || '<span class="placeholder">待填写</span>';
   // publications 完整（带筛选）
   const filters = [['all','All'],['corresponding','Corresponding'],['first','First author'],['co-author','Co-author']];
   document.getElementById('pub-filters').innerHTML = filters.map(([k,l],i) => `<button data-f="${k}" class="${i===0?'active':''}">${l}</button>`).join('');
@@ -371,10 +373,14 @@ function showSection(id) {
     renderPubList(b.dataset.f);
   });
   render(D);
-  // 版本切换链接
+  // 版本切换链接（分享版不显示，避免暴露完整版入口）
   const toggle = document.getElementById('version-toggle');
-  toggle.textContent = window.__SHARE__ ? '完整版' : '分享版';
-  toggle.onclick = () => { location.href = window.__SHARE__ ? location.pathname : location.pathname + '?v=share'; };
+  if (window.__SHARE__) {
+    toggle.style.display = 'none';
+  } else {
+    toggle.textContent = '分享版';
+    toggle.onclick = () => { location.href = location.pathname + '?v=share'; };
+  }
 })();
 </script>
 </body>
