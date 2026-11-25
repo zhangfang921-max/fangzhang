@@ -1413,12 +1413,6 @@
       "detail": "福建省生物学会",
       "period": "2021-present",
       "type": "director"
-    },
-    {
-      "name": "Reviewer for peer-reviewed journals",
-      "detail": "J. Agric. Food Chem., Food Chem., Anal. Bioanal. Chem., Anal. Chem., Biosens. Bioelectron., Talanta, Analyst, et al.",
-      "period": "ongoing",
-      "type": "reviewer"
     }
   ],
   "awards": [
@@ -1483,7 +1477,7 @@
       "date": "2026-11",
       "tag": "Invited Talk",
       "title": "Invited talk at CRISPR BUILD 2026 (CRISPR Diagnostics Developer Conference)",
-      "detail": "张芳作邀请报告 (invited talk)",
+      "detail": "invited talk",
       "photos": [
         "assets/photos/202611_CRISPR_Builder_1st/Weixin Image_20261125140134_174_398.jpg"
       ]

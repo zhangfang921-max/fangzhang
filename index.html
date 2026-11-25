@@ -329,7 +329,16 @@ async function render(D) {
   // teaching/supervision
   document.getElementById('teaching-list').innerHTML = D.teaching.length ? D.teaching.map(t => `<div class="funding-item"><div class="fund-name">${t.course || t}</div><div class="fund-meta">${t.level||''} ${t.period||''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
   document.getElementById('team-list').innerHTML = D.supervision.length ? D.supervision.map(s => `<div class="funding-item"><div class="fund-name">${s.name}</div><div class="fund-meta">${s.role}${s.period ? ' · '+s.period : ''}${s.note ? ' · '+s.note : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
-  document.getElementById('service-list').innerHTML = D.service.length ? D.service.map(s => `<div class="funding-item">${typeof s === 'string' ? s : s.name}</div>`).join('') : '<span class="placeholder">待填写</span>';
+  document.getElementById('service-list').innerHTML = D.service.length ? D.service.map(s => {
+    const name = typeof s === 'string' ? s : s.name;
+    const parts = name.split(', ');
+    if (parts.length >= 2) {
+      const role = parts[0];
+      const org = parts.slice(1).join(', ');
+      return `<div class="funding-item"><div class="fund-name">${role}, <b>${org}</b></div></div>`;
+    }
+    return `<div class="funding-item"><div class="fund-name">${name}</div></div>`;
+  }).join('') : '<span class="placeholder">待填写</span>';
   const awardsShown = window.__SHARE__ ? D.awards.filter(a => !a.level || a.level === 'national' || a.level === 'provincial') : D.awards;
   document.getElementById('awards-list').innerHTML = awardsShown.length ? awardsShown.map(a => `<div class="funding-item"><div class="fund-name">${typeof a === 'string' ? a : a.name}</div><div class="fund-meta">${typeof a === 'object' ? (a.year||'') + (a.level ? ' · ' + a.level : '') : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
   // news
