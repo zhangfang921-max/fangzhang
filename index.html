@@ -148,6 +148,8 @@ footer { background: #fff; color: var(--muted); text-align: center; padding: 24p
     <div class="directions" id="h-directions"></div>
     <h3 style="margin-top:28px;">Recent Publications</h3>
     <div id="h-recent-pubs"></div>
+    <h3 style="margin-top:28px;">News &amp; Updates</h3>
+    <div id="h-news"></div>
   </section>
 
   <!-- Research -->
@@ -271,17 +273,24 @@ async function render(D) {
       links.innerHTML += `<a href="${v}" target="_blank">${label}</a>`;
     }
   }
-  // metrics
+  // metrics（完整版显示数字；分享版不显示，改放 ResearchGate 链接）
   const pubs = D.publications;
-  const nCorr = pubs.filter(x => x.role.includes('corresponding')).length;
-  const nFirst = pubs.filter(x => x.role.includes('first')).length;
-  const metrics = [
-    [pubs.length, 'Publications'],
-    [nCorr, 'Corresponding'],
-    [nFirst, 'First author'],
-    [p.h_index || '—', 'H-index'],
-  ];
-  document.getElementById('h-metrics').innerHTML = metrics.map(m => `<div class="metric"><div class="num">${m[0]}</div><div class="label">${m[1]}</div></div>`).join('');
+  if (window.__SHARE__) {
+    const rg = p.links && p.links.researchgate;
+    document.getElementById('h-metrics').innerHTML = rg
+      ? `<div style="padding:14px 0;"><a href="${rg}" target="_blank" style="color:var(--blue);font-size:1rem;">View full publication list &amp; metrics on ResearchGate →</a></div>`
+      : '';
+  } else {
+    const nCorr = pubs.filter(x => x.role.includes('corresponding')).length;
+    const nFirst = pubs.filter(x => x.role.includes('first')).length;
+    const metrics = [
+      [pubs.length, 'Publications'],
+      [nCorr, 'Corresponding'],
+      [nFirst, 'First author'],
+      [p.h_index || '—', 'H-index'],
+    ];
+    document.getElementById('h-metrics').innerHTML = metrics.map(m => `<div class="metric"><div class="num">${m[0]}</div><div class="label">${m[1]}</div></div>`).join('');
+  }
   // bio
   const bio = p.bio || '<span class="placeholder">Bio 待填写（在 data.json 的 profile.bio）</span>';
   document.getElementById('h-bio').innerHTML = `<p style="color:#4a5568;">${bio}</p>`;
@@ -294,6 +303,8 @@ async function render(D) {
   // recent pubs (最近5篇)
   const recent = pubs.slice(0, 5).map(renderPubItem).join('');
   document.getElementById('h-recent-pubs').innerHTML = recent;
+  // home news（最新3条）
+  document.getElementById('h-news').innerHTML = D.news.slice(0, 3).map(n => `<div class="news-item"><div class="news-date">${n.date||''}</div><div class="news-body">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}</div></div>`).join('') || '<span class="placeholder">待填写</span>';
   // funding (只显示省部级以上：national + provincial)
   const majorFunding = D.funding.filter(f => !f.level || f.level === 'national' || f.level === 'provincial');
   // 完整版显示标题+简洁信息；分享版只显示简洁（无具体标题）
