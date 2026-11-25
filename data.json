@@ -1484,14 +1484,7 @@
   ],
   "news": [
     {
-      "date": "2026-11-20",
-      "title": "Anqi Wu & Minxi Zhao's first first-authored paper",
-      "detail": "Congrats to Anqi Wu and Minxi Zhao on publishing their first first-authored paper in Analytical Chemistry!",
-      "tag": "Publication",
-      "photos": []
-    },
-    {
-      "date": "2026-11",
+      "date": "2026-11-21",
       "tag": "Invited Talk",
       "title": "Invited talk at CRISPR BUILD 2026 (CRISPR Diagnostics Developer Conference)",
       "detail": "Dr. Zhang delivered an invited talk at CRISPR BUILD 2026 — the first conference dedicated to CRISPR diagnostics.",
@@ -1500,9 +1493,16 @@
       ]
     },
     {
+      "date": "2026-11-20",
+      "title": "Anqi Wu & Minxi Zhao's first first-authored paper",
+      "detail": "Congrats to Anqi Wu and Minxi Zhao on publishing their first first-authored paper in Analytical Chemistry!",
+      "tag": "Publication",
+      "photos": []
+    },
+    {
       "date": "2026-10-01",
-      "title": "CRISPR-Scan published in Advanced Science",
-      "detail": "Congrats! Our CRISPR-Scan paper — Cas13a mismatch tolerance enabled ultra-multiplexed detection of same-site indels in acute myeloid leukemia — has been published in Advanced Science.",
+      "title": "CRISPR-Scan (co-authored) published in Advanced Science",
+      "detail": "Congrats to the team! Our co-authored paper on CRISPR-Scan — Cas13a mismatch tolerance enabled ultra-multiplexed detection of same-site indels in acute myeloid leukemia — has been published in Advanced Science.",
       "tag": "Publication",
       "photos": []
     }

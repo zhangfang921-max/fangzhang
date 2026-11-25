@@ -51,8 +51,8 @@ nav ul li a.active { color: var(--blue); border-bottom-color: var(--blue); }
 .hero { background: #fff; color: var(--ink); padding: 48px 0 24px; border-bottom: 1px solid var(--border); }
 .hero-inner { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; }
 .headshot {
-  width: 140px; height: 140px; border-radius: 50%; object-fit: cover;
-  border: 3px solid var(--border); background: var(--light);
+  width: 150px; height: 200px; border-radius: 6px; object-fit: cover;
+  border: 1px solid var(--border); background: var(--light);
   display: flex; align-items: center; justify-content: center; font-size: 2.4rem; font-weight: 400; color: var(--muted);
 }
 .hero-text h1 { font-size: 2.1rem; font-weight: 400; margin-bottom: 4px; letter-spacing: 0.5px; }
@@ -281,9 +281,9 @@ async function render(D) {
       links.innerHTML += `<a href="${v}" target="_blank">${label}</a>`;
     }
   }
-  // 分享版：h-links 行右侧加 ResearchGate 完整列表链接
+  // 分享版：h-links 行右侧加 ResearchGate 完整列表链接（蓝色字体）
   if (window.__SHARE__ && p.links && p.links.researchgate) {
-    links.innerHTML += `<a href="${p.links.researchgate}" target="_blank" style="background:#0066cc;color:#fff;border-color:#0066cc;">View full publication list &amp; metrics on ResearchGate →</a>`;
+    links.innerHTML += `<a href="${p.links.researchgate}" target="_blank" style="color:#0066cc;background:none;border:none;font-size:0.9rem;">View full publication list &amp; metrics on ResearchGate →</a>`;
   }
   // metrics（完整版显示数字；分享版不显示——ResearchGate 链接已在 h-links 区）
   const pubs = D.publications;
