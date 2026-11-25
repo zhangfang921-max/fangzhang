@@ -38,17 +38,17 @@
       {
         "name": "Nucleic acid analysis & functional nucleic acid biosensing",
         "desc": "DNA/RNA detection methods; functional nucleic acids (aptamers, DNAzymes, G-quadruplexes) engineered to sense non-nucleic-acid targets.",
-        "image": ""
+        "image": "assets/directions/direction1_nucleic.svg"
       },
       {
         "name": "CRISPR/Cas & nucleic acid-guided protein diagnostics",
         "desc": "Programmable CRISPR/Cas12a/Cas14a, TtAgo and Tas systems for ultrasensitive, field-deployable diagnostics.",
-        "image": ""
+        "image": "assets/directions/direction2_crispr.svg"
       },
       {
         "name": "Nanomaterials & AI-enabled biosensing platforms",
         "desc": "Nanomaterials, machine learning, and emerging protein tools for faster, simpler, and cheaper detection solutions.",
-        "image": ""
+        "image": "assets/directions/direction3_nano.svg"
       }
     ]
   },
@@ -1477,7 +1477,7 @@
       "date": "2026-11",
       "tag": "Invited Talk",
       "title": "Invited talk at CRISPR BUILD 2026 (CRISPR Diagnostics Developer Conference)",
-      "detail": "invited talk",
+      "detail": "Dr. Zhang delivered an invited talk at CRISPR BUILD 2026 — the first conference dedicated to CRISPR diagnostics.",
       "photos": [
         "assets/photos/202611_CRISPR_Builder_1st/Weixin Image_20261125140134_174_398.jpg"
       ]

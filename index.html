@@ -22,7 +22,8 @@ body {
   font-family: "Times New Roman", Times, Georgia, serif;
   color: var(--text);
   line-height: 1.65;
-  background: #fff;
+  background: #fff url('assets/bg_dna.svg') fixed;
+  background-size: cover;
   font-size: 17px;
 }
 h1, h2, h3, h4, .brand { font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 0.3px; }
@@ -70,8 +71,8 @@ nav ul li a.active { color: var(--blue); border-bottom-color: var(--blue); }
 
 /* 板块 */
 .section { padding: 42px 0; }
-.section h2 { font-size: 1.4rem; color: var(--navy); margin-bottom: 18px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
-.section h3 { font-size: 1.05rem; color: var(--navy); margin: 16px 0 8px; }
+.section h2 { font-size: 1.7rem; color: var(--navy); margin-bottom: 18px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+.section h3 { font-size: 1.25rem; color: var(--navy); margin: 20px 0 10px; }
 
 /* 研究方向卡片 */
 .directions { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
@@ -307,10 +308,10 @@ async function render(D) {
   // recent pubs (最近5篇)
   const recent = pubs.slice(0, 5).map(renderPubItem).join('');
   document.getElementById('h-recent-pubs').innerHTML = recent;
-  // home news（最新3条，带配图）
+  // home news（最新3条，照片小图放右侧）
   document.getElementById('h-news').innerHTML = D.news.slice(0, 3).map(n => {
-    const photos = (n.photos || []).map(p => `<img src="${encodeURI(p)}" loading="lazy" style="max-width:170px;border-radius:6px;margin:6px 6px 0 0;display:inline-block;border:1px solid #e8e8e8;" />`).join('');
-    return `<div class="news-item"><div class="news-date">${n.date||''}</div><div class="news-body">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.9rem;color:#444;margin-top:3px">${n.detail}</div>` : ''}${photos ? `<div style="margin-top:8px">${photos}</div>` : ''}</div></div>`;
+    const photo = (n.photos && n.photos[0]) ? `<img src="${encodeURI(n.photos[0])}" loading="lazy" style="width:110px;height:82px;object-fit:cover;border-radius:6px;margin-left:12px;flex-shrink:0;border:1px solid #e8e8e8;" />` : '';
+    return `<div class="news-item" style="align-items:flex-start;"><div class="news-date">${n.date||''}</div><div class="news-body" style="flex:1;">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.9rem;color:#444;margin-top:3px">${n.detail}</div>` : ''}</div>${photo}</div>`;
   }).join('') || '<span class="placeholder">待填写</span>';
   // funding (只显示省部级以上：national + provincial)
   const majorFunding = D.funding.filter(f => !f.level || f.level === 'national' || f.level === 'provincial');
@@ -355,8 +356,8 @@ async function render(D) {
   document.getElementById('awards-list').innerHTML = awardsShown.length ? awardsShown.map(a => `<div class="funding-item"><div class="fund-name">${typeof a === 'string' ? a : a.name}</div><div class="fund-meta">${typeof a === 'object' ? (a.year||'') + (a.level ? ' · ' + a.level : '') : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
   // news
   document.getElementById('news-list').innerHTML = D.news.length ? D.news.map(n => {
-    const photos = (n.photos || []).map(p => `<img src="${encodeURI(p)}" loading="lazy" style="max-width:200px;border-radius:6px;margin:6px 6px 0 0;display:inline-block;border:1px solid #e2e8f0;" />`).join('');
-    return `<div class="news-item"><div class="news-date">${n.date||''}</div><div class="news-body">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.85rem;color:#718096;margin-top:3px">${n.detail}</div>` : ''}${photos ? `<div style="margin-top:8px">${photos}</div>` : ''}</div></div>`;
+    const photo = (n.photos && n.photos[0]) ? `<img src="${encodeURI(n.photos[0])}" loading="lazy" style="width:130px;height:95px;object-fit:cover;border-radius:6px;margin-left:14px;flex-shrink:0;border:1px solid #e8e8e8;" />` : '';
+    return `<div class="news-item" style="align-items:flex-start;"><div class="news-date">${n.date||''}</div><div class="news-body" style="flex:1;">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.92rem;color:#444;margin-top:4px">${n.detail}</div>` : ''}</div>${photo}</div>`;
   }).join('') : '<span class="placeholder">待填写（学术会议、交流经历等，在 data.json 的 news 数组）</span>';
   // contact
   document.getElementById('contact-info').innerHTML = `<p>Email: <a href="mailto:${p.email}">${p.email}</a></p><p>${p.department}, ${p.institution}</p>`;
