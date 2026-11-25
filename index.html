@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fang Zhang — Research Assistant Professor, PolyU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1a1a1a;
+  --blue: #0066cc;
+  --light: #fafafa;
+  --border: #e8e8e8;
+  --text: #333333;
+  --muted: #666666;
+  --accent: #0066cc;
+  --navy: #1a1a1a;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+  background: #fff;
+}
+h1, h2, h3, h4, .brand { font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 0.3px; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+/* 顶部导航（浅色） */
+header {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 100;
+}
+.nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 0 24px; max-width: 1080px; margin: 0 auto; }
+.brand { font-size: 1.15rem; font-weight: 500; padding: 14px 0; letter-spacing: 0.5px; color: var(--ink); }
+.brand small { font-weight: 300; opacity: 0.6; }
+nav ul { display: flex; list-style: none; gap: 2px; flex-wrap: wrap; }
+nav ul li a {
+  color: var(--text); padding: 14px 13px; display: block; font-size: 0.9rem;
+  border-bottom: 2px solid transparent; cursor: pointer;
+}
+nav ul li a:hover { color: var(--blue); text-decoration: none; }
+nav ul li a.active { color: var(--blue); border-bottom-color: var(--blue); }
+
+/* Hero（浅色） */
+.hero { background: #fff; color: var(--ink); padding: 48px 0 24px; border-bottom: 1px solid var(--border); }
+.hero-inner { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; }
+.headshot {
+  width: 140px; height: 140px; border-radius: 50%; object-fit: cover;
+  border: 3px solid var(--border); background: var(--light);
+  display: flex; align-items: center; justify-content: center; font-size: 2.4rem; font-weight: 400; color: var(--muted);
+}
+.hero-text h1 { font-size: 2.1rem; font-weight: 400; margin-bottom: 4px; letter-spacing: 0.5px; }
+.hero-text .title { font-size: 1.05rem; color: var(--blue); margin-bottom: 6px; font-weight: 500; }
+.hero-text .affil { font-size: 0.92rem; color: var(--muted); }
+.hero-links { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
+.hero-links a { background: var(--light); color: var(--blue); padding: 5px 12px; border-radius: 4px; font-size: 0.82rem; border: 1px solid var(--border); }
+.hero-links a:hover { background: #f0f0f0; text-decoration: none; }
+
+/* 指标卡片 */
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 14px; margin-top: 28px; }
+.metric { background: var(--light); border: 1px solid var(--border); border-radius: 8px; padding: 16px; text-align: center; }
+.metric .num { font-size: 1.7rem; font-weight: 500; color: var(--ink); }
+.metric .label { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+
+/* 板块 */
+.section { padding: 42px 0; }
+.section h2 { font-size: 1.4rem; color: var(--navy); margin-bottom: 18px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+.section h3 { font-size: 1.05rem; color: var(--navy); margin: 16px 0 8px; }
+
+/* 研究方向卡片 */
+.directions { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.direction { border: 1px solid var(--border); border-radius: 8px; padding: 18px; background: var(--light); }
+.direction h4 { color: var(--navy); margin-bottom: 6px; font-size: 1rem; }
+.direction p { font-size: 0.9rem; color: var(--muted); }
+
+/* 论文列表 */
+.pub-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+.pub-filters button {
+  border: 1px solid var(--border); background: #fff; color: var(--text);
+  padding: 6px 14px; border-radius: 20px; cursor: pointer; font-size: 0.85rem;
+}
+.pub-filters button.active { background: var(--navy); color: #fff; border-color: var(--navy); }
+.pub-item { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.pub-item .pub-title { font-weight: 600; color: var(--navy); }
+.pub-item .pub-title a { color: var(--navy); }
+.pub-item .pub-meta { font-size: 0.86rem; color: var(--muted); margin-top: 2px; }
+.pub-badge { display: inline-block; font-size: 0.72rem; padding: 1px 8px; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
+.badge-corr { background: #c6f6d5; color: #22543d; }
+.badge-first { background: #bee3f8; color: #2a4365; }
+.badge-cofirst { background: #fefcbf; color: #744210; }
+.badge-coauthor { background: #edf2f7; color: #4a5568; }
+.pub-year-group { font-weight: 700; color: var(--blue); margin: 20px 0 6px; font-size: 1.1rem; }
+
+/* News 时间线 */
+.news-item { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.news-date { min-width: 90px; color: var(--blue); font-weight: 600; font-size: 0.88rem; }
+.news-body { font-size: 0.92rem; }
+.news-tag { display: inline-block; font-size: 0.7rem; padding: 1px 8px; border-radius: 10px; background: #e2e8f0; color: #4a5568; margin-left: 6px; }
+
+/* 基金表 */
+.funding-item { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.funding-item .fund-name { font-weight: 600; color: var(--navy); }
+.funding-item .fund-meta { font-size: 0.85rem; color: var(--muted); }
+
+.hidden { display: none; }
+footer { background: #fff; color: var(--muted); text-align: center; padding: 24px 0; font-size: 0.82rem; border-top: 1px solid var(--border); }
+.placeholder { color: var(--muted); font-style: italic; font-size: 0.9rem; }
+@media (max-width: 640px) {
+  .hero-inner { flex-direction: column; text-align: center; }
+  .hero-links { justify-content: center; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <div class="brand">Fang Zhang <small>· PolyU</small></div>
+    <nav><ul id="nav"></ul></nav>
+  </div>
+</header>
+
+<main class="container">
+  <!-- Home -->
+  <section id="sec-home" class="section">
+    <div class="hero" style="margin:-42px -24px 0; padding:48px 24px 40px;">
+      <div class="hero-inner container" style="max-width:1080px;margin:0 auto;">
+        <div class="headshot" id="headshot">FZ</div>
+        <div class="hero-text">
+          <h1 id="h-name">Fang Zhang</h1>
+          <div class="title" id="h-title"></div>
+          <div class="affil" id="h-affil"></div>
+          <div class="hero-links" id="h-links"></div>
+        </div>
+      </div>
+      <div class="container" style="max-width:1080px;margin:0 auto;">
+        <div class="metrics" id="h-metrics"></div>
+      </div>
+    </div>
+    <div id="h-bio" style="margin-top:26px;"></div>
+    <h3>Research Directions</h3>
+    <div class="directions" id="h-directions"></div>
+    <h3 style="margin-top:28px;">Recent Publications</h3>
+    <div id="h-recent-pubs"></div>
+    <h3 style="margin-top:28px;">Funding</h3>
+    <div id="h-funding"></div>
+  </section>
+
+  <!-- Research -->
+  <section id="sec-research" class="section hidden">
+    <h2>Research</h2>
+    <div id="research-statement"></div>
+    <h3>Directions</h3>
+    <div class="directions" id="research-directions"></div>
+  </section>
+
+  <!-- Publications -->
+  <section id="sec-publications" class="section hidden">
+    <h2>Publications</h2>
+    <div class="pub-filters" id="pub-filters"></div>
+    <div id="pub-list"></div>
+  </section>
+
+  <!-- Funding -->
+  <section id="sec-funding" class="section hidden">
+    <h2>Funding &amp; Grants</h2>
+    <div id="funding-list"></div>
+  </section>
+
+  <!-- Teaching -->
+  <section id="sec-teaching" class="section hidden">
+    <h2>Teaching &amp; Supervision</h2>
+    <div id="teaching-list"></div>
+  </section>
+
+  <!-- Service -->
+  <section id="sec-service" class="section hidden">
+    <h2>Service &amp; Leadership</h2>
+    <div id="service-list"></div>
+  </section>
+
+  <!-- Awards -->
+  <section id="sec-awards" class="section hidden">
+    <h2>Awards &amp; Honors</h2>
+    <div id="awards-list"></div>
+  </section>
+
+  <!-- News -->
+  <section id="sec-news" class="section hidden">
+    <h2>News &amp; Activities</h2>
+    <div id="news-list"></div>
+  </section>
+
+  <!-- Team -->
+  <section id="sec-team" class="section hidden">
+    <h2>Team</h2>
+    <div id="team-list"></div>
+  </section>
+
+  <!-- Contact -->
+  <section id="sec-contact" class="section hidden">
+    <h2>Contact</h2>
+    <div id="contact-info"></div>
+  </section>
+</main>
+
+<footer>© <span id="foot-year"></span> Fang Zhang · Department of Food Science and Nutrition, The Hong Kong Polytechnic University · <a href="javascript:void(0)" id="version-toggle"></a></footer>
+
+<script>
+// 加载 data.json
+async function loadData() {
+  try {
+    const r = await fetch('data.json');
+    return await r.json();
+  } catch (e) {
+    // 本地 file:// 时 fetch 失败，提示用服务器
+    document.body.innerHTML = '<div style="padding:40px;text-align:center;color:#718096">请在本地用 <code>python -m http.server</code> 启动服务器后访问，或部署到 GitHub Pages。</div>';
+    return null;
+  }
+}
+
+const NAV = [
+  ['home','Home'],['research','Research'],['publications','Publications'],
+  ['funding','Funding'],['teaching','Teaching'],['service','Service'],
+  ['awards','Awards'],['news','News'],['team','Team'],['contact','Contact']
+];
+
+function roleBadge(role) {
+  const map = {
+    'corresponding': ['badge-corr','Corresponding'],
+    'co-first & corresponding': ['badge-cofirst','Co-first & Corr.'],
+    'first': ['badge-first','First author'],
+    'co-author': ['badge-coauthor','Co-author'],
+  };
+  const [cls, label] = map[role] || ['badge-coauthor', role];
+  return `<span class="pub-badge ${cls}">${label}</span>`;
+}
+
+function renderPubItem(p) {
+  const doi = p.doi ? `<a href="https://doi.org/${p.doi}" target="_blank">${p.title}</a>` : p.title;
+  const vol = p.volume_issue_page ? p.volume_issue_page : '';
+  const ifStr = p.if ? `<span style="color:#999;font-weight:400;font-style:normal;"> · IF ${p.if}</span>` : '';
+  const meta = `<i>${p.journal}</i>` + (vol ? `, ${vol}` : '') + (p.year ? ` (${p.year})` : '') + ifStr;
+  return `<div class="pub-item">
+    <div class="pub-title">${doi}${roleBadge(p.role)}</div>
+    <div class="pub-meta">${meta}</div>
+  </div>`;
+}
+
+async function render(D) {
+  if (!D) return;
+  const p = D.profile;
+  document.getElementById('h-name').textContent = p.name;
+  document.getElementById('h-title').textContent = p.title;
+  document.getElementById('h-affil').textContent = `${p.department}, ${p.institution}`;
+  if (p.headshot) {
+    const img = document.getElementById('headshot');
+    img.textContent = '';
+    img.style.background = `url('${p.headshot}') center/cover`;
+  }
+  // links
+  const links = document.getElementById('h-links');
+  links.innerHTML = '';
+  for (const [k, v] of Object.entries(p.links || {})) {
+    if (v) {
+      const label = k.replace('_',' ').replace(/\b\w/g, c => c.toUpperCase());
+      links.innerHTML += `<a href="${v}" target="_blank">${label}</a>`;
+    }
+  }
+  // metrics
+  const pubs = D.publications;
+  const nCorr = pubs.filter(x => x.role.includes('corresponding')).length;
+  const nFirst = pubs.filter(x => x.role.includes('first')).length;
+  const metrics = [
+    [pubs.length, 'Publications'],
+    [nCorr, 'Corresponding'],
+    [nFirst, 'First author'],
+    [p.h_index || '—', 'H-index'],
+  ];
+  document.getElementById('h-metrics').innerHTML = metrics.map(m => `<div class="metric"><div class="num">${m[0]}</div><div class="label">${m[1]}</div></div>`).join('');
+  // bio
+  const bio = p.bio || '<span class="placeholder">Bio 待填写（在 data.json 的 profile.bio）</span>';
+  document.getElementById('h-bio').innerHTML = `<p style="color:#4a5568;">${bio}</p>`;
+  // directions
+  const dirs = D.research.directions.map(d => `<div class="direction"><h4>${d.name}</h4><p>${d.desc || ''}</p></div>`).join('');
+  document.getElementById('h-directions').innerHTML = dirs;
+  document.getElementById('research-directions').innerHTML = dirs;
+  // statement
+  document.getElementById('research-statement').innerHTML = D.research.statement ? `<p>${D.research.statement}</p>` : '<span class="placeholder">Research statement 待填写</span>';
+  // recent pubs (最近5篇)
+  const recent = pubs.slice(0, 5).map(renderPubItem).join('');
+  document.getElementById('h-recent-pubs').innerHTML = recent;
+  // funding (只显示省部级以上：national + provincial)
+  const majorFunding = D.funding.filter(f => !f.level || f.level === 'national' || f.level === 'provincial');
+  const fundingHome = majorFunding.map(f => `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${f.agency}${f.grant_id ? ' · ' + f.grant_id : ''}${f.role ? ' · ' + f.role : ''}</div></div>`).join('');
+  document.getElementById('h-funding').innerHTML = fundingHome || '<span class="placeholder">待填写</span>';
+  // 完整 funding
+  document.getElementById('funding-list').innerHTML = majorFunding.map(f => `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${f.agency} · ${f.grant_id} · ${f.role} · ${f.period}${f.amount ? ' · ' + f.amount : ''}</div></div>`).join('') || '<span class="placeholder">待填写</span>';
+  // publications 完整（带筛选）
+  const filters = [['all','All'],['corresponding','Corresponding'],['first','First author'],['co-author','Co-author']];
+  document.getElementById('pub-filters').innerHTML = filters.map(([k,l],i) => `<button data-f="${k}" class="${i===0?'active':''}">${l}</button>`).join('');
+  renderPubList('all');
+  // teaching/supervision
+  document.getElementById('teaching-list').innerHTML = D.teaching.length ? D.teaching.map(t => `<div class="funding-item"><div class="fund-name">${t.course || t}</div><div class="fund-meta">${t.level||''} ${t.period||''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
+  document.getElementById('team-list').innerHTML = D.supervision.length ? D.supervision.map(s => `<div class="funding-item"><div class="fund-name">${s.name}</div><div class="fund-meta">${s.role}${s.period ? ' · '+s.period : ''}${s.note ? ' · '+s.note : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
+  document.getElementById('service-list').innerHTML = D.service.length ? D.service.map(s => `<div class="funding-item">${typeof s === 'string' ? s : s.name}</div>`).join('') : '<span class="placeholder">待填写</span>';
+  const awardsShown = window.__SHARE__ ? D.awards.filter(a => !a.level || a.level === 'national' || a.level === 'provincial') : D.awards;
+  document.getElementById('awards-list').innerHTML = awardsShown.length ? awardsShown.map(a => `<div class="funding-item"><div class="fund-name">${typeof a === 'string' ? a : a.name}</div><div class="fund-meta">${typeof a === 'object' ? (a.year||'') + (a.level ? ' · ' + a.level : '') : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
+  // news
+  document.getElementById('news-list').innerHTML = D.news.length ? D.news.map(n => {
+    const photos = (n.photos || []).map(p => `<img src="${encodeURI(p)}" loading="lazy" style="max-width:200px;border-radius:6px;margin:6px 6px 0 0;display:inline-block;border:1px solid #e2e8f0;" />`).join('');
+    return `<div class="news-item"><div class="news-date">${n.date||''}</div><div class="news-body">${n.title||n.text||''}${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}${n.detail ? `<div style="font-size:0.85rem;color:#718096;margin-top:3px">${n.detail}</div>` : ''}${photos ? `<div style="margin-top:8px">${photos}</div>` : ''}</div></div>`;
+  }).join('') : '<span class="placeholder">待填写（学术会议、交流经历等，在 data.json 的 news 数组）</span>';
+  // contact
+  document.getElementById('contact-info').innerHTML = `<p>Email: <a href="mailto:${p.email}">${p.email}</a></p><p>${p.department}, ${p.institution}</p>`;
+  document.getElementById('foot-year').textContent = new Date().getFullYear();
+}
+
+function renderPubList(filter) {
+  const D = window.__DATA__;
+  let pubs = D.publications;
+  if (filter === 'corresponding') pubs = pubs.filter(x => x.role.includes('corresponding'));
+  else if (filter === 'first') pubs = pubs.filter(x => x.role.includes('first'));
+  else if (filter === 'co-author') pubs = pubs.filter(x => x.role === 'co-author');
+  // 分享版：只显示近10年（2016及以后）
+  if (window.__SHARE__) pubs = pubs.filter(x => parseInt(x.year) >= 2016);
+  // 按年份分组
+  const byYear = {};
+  pubs.forEach(p => { (byYear[p.year] = byYear[p.year] || []).push(p); });
+  let html = '';
+  if (window.__SHARE__) {
+    html += `<div class="pub-year-group" style="color:#718096;font-weight:400;font-size:0.85rem">Showing ${pubs.length} publications (${Object.keys(byYear).length} years); ${D.publications.length} total — full list in complete version</div>`;
+  }
+  for (const year of Object.keys(byYear).sort().reverse()) {
+    html += `<div class="pub-year-group">${year}</div>`;
+    html += byYear[year].map(renderPubItem).join('');
+  }
+  document.getElementById('pub-list').innerHTML = html;
+}
+
+// 导航切换
+function showSection(id) {
+  NAV.forEach(([k]) => document.getElementById('sec-' + k).classList.add('hidden'));
+  document.getElementById('sec-' + id).classList.remove('hidden');
+  document.querySelectorAll('#nav li a').forEach(a => a.classList.toggle('active', a.dataset.sec === id));
+  window.scrollTo(0, 0);
+}
+
+(async () => {
+  const D = await loadData();
+  if (!D) return;
+  window.__DATA__ = D;
+  // 分享版：URL ?v=share 精简（项目省部级+、论文近10年+总况、获奖省部级+）
+  window.__SHARE__ = new URLSearchParams(location.search).get('v') === 'share';
+  if (window.__SHARE__) document.body.classList.add('share-mode');
+  // 导航
+  const navEl = document.getElementById('nav');
+  navEl.innerHTML = NAV.map(([k, l]) => `<li><a data-sec="${k}" class="${k==='home'?'active':''}">${l}</a></li>`).join('');
+  navEl.addEventListener('click', e => { const a = e.target.closest('a'); if (a) showSection(a.dataset.sec); });
+  // 论文筛选
+  document.getElementById('pub-filters').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    document.querySelectorAll('#pub-filters button').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    renderPubList(b.dataset.f);
+  });
+  render(D);
+  // 版本切换链接
+  const toggle = document.getElementById('version-toggle');
+  toggle.textContent = window.__SHARE__ ? '完整版' : '分享版';
+  toggle.onclick = () => { location.href = window.__SHARE__ ? location.pathname : location.pathname + '?v=share'; };
+})();
+</script>
+</body>
+</html>

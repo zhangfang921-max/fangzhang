@@ -1,0 +1,1038 @@
+{
+  "_meta": {
+    "updated": "2026-11-25",
+    "owner": "Fang Zhang"
+  },
+  "profile": {
+    "name": "Fang Zhang",
+    "name_cn": "张芳",
+    "title": "Research Assistant Professor",
+    "department": "Department of Food Science and Nutrition",
+    "institution": "The Hong Kong Polytechnic University",
+    "email": "fang9.zhang@polyu.edu.hk",
+    "location": "Hong Kong",
+    "headshot": "assets/headshot.jpg",
+    "links": {
+      "orcid": "https://orcid.org/0000-0001-5323-6728",
+      "researchgate": "https://www.researchgate.net/profile/Fang-Zhang-27",
+      "google_scholar": "",
+      "scopus": "",
+      "polyu": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhang-fang"
+    },
+    "bio": "Dr. Fang Zhang's research centers on nucleic acid-based analytical and diagnostic methods. Her group designs and engineers nucleic acids not only to detect DNA and RNA, but also leverages functional nucleic acids (aptamers, DNAzymes, G-quadruplexes) and nucleic acid-guided proteins (CRISPR/Cas, TtAgo, Tas) to sense a broad range of targets. Integrating AI/machine learning, nanomaterials, and emerging protein tools, the group develops faster, simpler, and more cost-effective solutions across the One Health continuum — from plants, animals, food, and the environment to medical diagnostics.",
+    "research_interests": [
+      "CRISPR/Cas diagnostics",
+      "Nucleic acid-guided proteins (Cas12a, TtAgo, Tas)",
+      "Functional nucleic acids & aptamers",
+      "Nanomaterials for biosensing",
+      "Metasurface SPR",
+      "Magnetic nanomaterials",
+      "Next-generation sequencing methods",
+      "Food safety rapid detection"
+    ],
+    "h_index": 23
+  },
+  "research": {
+    "statement": "We develop nucleic acid-based analytical and diagnostic methods spanning the One Health continuum. Our work centers on nucleic acid analysis and design: building DNA/RNA detection methods, exploiting functional nucleic acids to sense non-nucleic-acid targets, and engineering nucleic acid-guided proteins for diagnostics. By integrating AI/machine learning, nanomaterials, and novel protein tools, we aim for faster, simpler, and cheaper solutions from plants and animals, food, and the environment to medical diagnostics.",
+    "directions": [
+      {
+        "name": "Nucleic acid analysis & functional nucleic acid biosensing",
+        "desc": "DNA/RNA detection methods; functional nucleic acids (aptamers, DNAzymes, G-quadruplexes) engineered to sense non-nucleic-acid targets.",
+        "image": ""
+      },
+      {
+        "name": "CRISPR/Cas & nucleic acid-guided protein diagnostics",
+        "desc": "Programmable CRISPR/Cas12a/Cas14a, TtAgo and Tas systems for ultrasensitive, field-deployable diagnostics.",
+        "image": ""
+      },
+      {
+        "name": "Nanomaterials & AI-enabled biosensing platforms",
+        "desc": "Nanomaterials, machine learning, and emerging protein tools for faster, simpler, and cheaper detection solutions.",
+        "image": ""
+      }
+    ]
+  },
+  "publications": [
+    {
+      "title": "Reduced Graphene Oxide Coated Melamine Sponge as Cleanup Absorbent for Multi-residue Analysis of Organophosphorus Pesticides in Feed",
+      "journal": "Microchemical Journal",
+      "year": "2026",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Chunni Wei¹, Minshi Chen¹, Qianyang Zhong, Huajian Liu, Minjian Wu, Xiaojing Li*, Zhenyu Lin*, Fang Zhang*",
+      "role": "corresponding",
+      "if": 4.8
+    },
+    {
+      "title": "Rapid Broad-Spectrum Colorimetric Detection of Bacteria Using Polylysine-Mediated Gold Nanoparticle Aggregation",
+      "journal": "Analytical Chemistry",
+      "year": "2026",
+      "doi": "10.1021/acs.analchem.6c02521",
+      "volume_issue_page": "98:24984-24992",
+      "authors": "Bozhou Chen, Yu Wu, Fang Zhang, Guan Yang, Sheng Chen*",
+      "role": "co-author",
+      "if": 7.3
+    },
+    {
+      "title": "Improved prediction for AFB1 in naturally contaminated peanut oil by fusing fluorescence with visible and near-infrared absorption and scattering properties",
+      "journal": "Food Control",
+      "year": "2026",
+      "doi": "10.1016/j.foodcont.2026.112082",
+      "volume_issue_page": "186:112082",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.0
+    },
+    {
+      "title": "A CRISPR/Cas12a−MXene Nanozyme Platform for Universal Detection of Trace DNA",
+      "journal": "ACS Sensors",
+      "year": "2026",
+      "doi": "10.1021/acssensors.5c03702",
+      "volume_issue_page": "11(6):4345-4356",
+      "authors": "",
+      "role": "co-author",
+      "if": 10.3
+    },
+    {
+      "title": "Rapid quality detection in colored potatoes during alternating cold and ambient storage: Utilizing absorption and scattering properties",
+      "journal": "Food Research International",
+      "year": "2026",
+      "doi": "10.1016/j.foodres.2026.118937",
+      "volume_issue_page": "232:118937",
+      "authors": "",
+      "role": "co-author",
+      "if": 7.0
+    },
+    {
+      "title": "A highly sensitive universal modularized CRISPR/Cas14a system for antibiotic sensing",
+      "journal": "Sensors and Actuators B Chemical",
+      "year": "2026",
+      "doi": "10.1016/j.snb.2026.139657",
+      "volume_issue_page": "463:139657",
+      "authors": "",
+      "role": "co-author",
+      "if": 8.3
+    },
+    {
+      "title": "Superhydrophobic sponge generated in situ based on dopamine as cleanup absorbent for multi-residue determination of organophosphorus pesticides in feed",
+      "journal": "Microchimica Acta",
+      "year": "2026",
+      "doi": "10.1007/s00604-026-08284-0",
+      "volume_issue_page": "193(8):580",
+      "authors": "Chunni Wei, Minshi Chen, Qianyang Zhong, Huajian Liu, Minjian Wu, Xiaojing Li, Zhenyu Lin, Fang Zhang*",
+      "role": "corresponding",
+      "if": 5.7
+    },
+    {
+      "title": "CRISPR-Scan: Cas13a Mismatch Tolerance Enabled Ultra-Multiplexed Detection of Same-Site Indels in Acute Myeloid Leukemia",
+      "journal": "Advanced Science",
+      "year": "2026",
+      "doi": "10.1002/advs.78229",
+      "volume_issue_page": "e78229",
+      "authors": "Linlin Bai, Bei Wang, Mingmin Shi, Dianwei Liu, Huimin Ji, Ting Wang, Ziwei Wang, Kaiming Guo, Xinyang Dou, Chunyan Qian, Fang Zhang, Yongming Wang, Hongju Mao, Rui Wang",
+      "role": "co-author",
+      "if": 14.1
+    },
+    {
+      "title": "A novel approach for prediction of anthocyanins and polyphenols in potato during hot-air drying process based on fusion of optical properties",
+      "journal": "Journal of Food Engineering",
+      "year": "2026",
+      "doi": "10.1016/j.jfoodeng.2026.113213",
+      "volume_issue_page": "421:113213",
+      "authors": "Xueming He, Yiwen Zhuang, Jie You, Fang Zhang, Fei Shen",
+      "role": "co-author",
+      "if": 6.1
+    },
+    {
+      "title": "Self-assembled DNAzyme based on the nicking enzyme amplification reaction for microRNA detection",
+      "journal": "Analytical Methods",
+      "year": "2025",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Hao Zhong†, Xin Huang†, Ganghui Chen†, Ting Zhang, Dongsheng Mao, Zhenyu Lin*, Fang Zhang*",
+      "role": "corresponding",
+      "if": 3.0
+    },
+    {
+      "title": "MVPCR: Multiplex Visual Detection Strategy Based on Ultrafast PCR for Point-of-Care Pathogens Detection Within 10 Min",
+      "journal": "Phenomics",
+      "year": "2025",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Ziqin Zhang#, Cui Wu#, Linlin Bai, Kaiming Guo, Ting Wang, Dianwei Liu, Mingrui Zhu, Feng Qian, Fang Zhang*, Rui Wang*",
+      "role": "corresponding",
+      "if": 2.0
+    },
+    {
+      "title": "振动光谱技术在鱼油品质检测中的应用研究进展",
+      "journal": "光谱学与光谱分析",
+      "year": "2025",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "马湖伊杉¹,², 潘南², 林振宇³, 陈晓婷², 吴靖娜⁴, 张芳¹*, 刘智禹²*",
+      "role": "corresponding"
+    },
+    {
+      "title": "Nucleic acid-guided protein-empowered aquatic contaminants sensing",
+      "journal": "Trends in Chemistry",
+      "year": "2025",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang*, Shiau Wei Liew, Sin Yu Lam, Chun Kit Kwok*",
+      "role": "co-first & corresponding",
+      "if": 11.1
+    },
+    {
+      "title": "Cellulose-like chitosan microfibrils facilitate targeted release and enhance the prolonged residence time of quercetin-selenium nanoparticles for Alzheimer's disease treatment",
+      "journal": "INTERNATIONAL JOURNAL OF PHARMACEUTICS",
+      "year": "2025",
+      "doi": "10.1016/J.IJPHARM.2024.125129",
+      "volume_issue_page": "670:125129",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.1
+    },
+    {
+      "title": "One-pot quick preparation of a magnetic nanocomposite based on aminated/fluorinated carbon nanotubes for the efficient capture of fluoroquinolones in aqueous samples",
+      "journal": "Journal of Molecular Liquids",
+      "year": "2025",
+      "doi": "10.1016/j.molliq.2025.128577",
+      "volume_issue_page": "437:128577",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.0
+    },
+    {
+      "title": "A colorimetric immunoassay for visual detection of zearalenone based on the Fenton reaction on gold nanorods",
+      "journal": "Journal of Food Measurement and Characterization",
+      "year": "2025",
+      "doi": "10.1007/s11694-025-03409-0",
+      "volume_issue_page": "19(9):6665-6676",
+      "authors": "Yuanlong Hu, Jiamin Chen, Sifang Wu, Yi Zhong, Jialin Ye, Lingqing Ye, Yuanzi Wu, Da Huang, ... Fang Zhang ...(11人)",
+      "role": "co-author",
+      "if": 3.0
+    },
+    {
+      "title": "Multiplex detection methods for mycotoxins in agricultural products: A systematic review",
+      "journal": "Food Control",
+      "year": "2024",
+      "doi": "10.1016/j.foodcont.2023.110207",
+      "volume_issue_page": "158:110207",
+      "authors": "Chencheng Wei, Handong Wang, Gaozheng Li, Jianhua Li, Fang Zhang, Yuezhong Wu**, Zuquan Weng*",
+      "role": "co-author",
+      "if": 6.0
+    },
+    {
+      "title": "Aptamer-based self-assembled nanomicelle enables efficient and targeted drug delivery",
+      "journal": "Journal of Nanobiotechnology",
+      "year": "2023",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Ganghui Chen, Dongsheng Mao, Xuan Wang, Jingqi Chen, Chao Gu, Shuqin Huang, Yu Yang*, Fang Zhang*, Weihong Tan",
+      "role": "corresponding",
+      "if": 15.0
+    },
+    {
+      "title": "Updated toolkits for nucleic acid-based biosensors",
+      "journal": "TrAC Trends in Analytical Chemistry",
+      "year": "2023",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang**, Ganghui Chen, Chenshan Gao, Shuqin Huang, Yishan Mahu, Fang Luo, Lixin Wang***, Zhenyu Lin*",
+      "role": "corresponding",
+      "if": 13.1
+    },
+    {
+      "title": "Graphene oxide assisting the visual detection of Salmonella by CRISPR/Cas12a",
+      "journal": "Microchemical Journal",
+      "year": "2023",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Liu Wang¹, Linlin Bai¹, Hongmei Wang, Kaiyu He, Rui Wang, Qiang Wang*, Fang Zhang*, Xiahong Xu*",
+      "role": "corresponding",
+      "if": 4.8
+    },
+    {
+      "title": "Label-Free Sequence-Specific Visualization of LAMP Amplified Salmonella via DNA Machine Produces G-Quadruplex DNAzyme",
+      "journal": "Biosensors",
+      "year": "2023",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Huan Zeng, Shuqin Huang, Yunong Chen, Minshi Chen, Kaiyu He, Caili Fu, Qiang Wang, Fang Zhang*, Liu Wang*, Xiahong Xu",
+      "role": "corresponding",
+      "if": 5.7
+    },
+    {
+      "title": "Fluorescent biosensor based on MB-APT combined with Pt NPs for the detection of infectious bacteria in mouse and human wounds",
+      "journal": "Sensors and Actuators B: Chemical",
+      "year": "2023",
+      "doi": "10.1016/j.snb.2023.134318",
+      "volume_issue_page": "393:134318",
+      "authors": "Lanmei Gao¹, Houbing Zheng¹, Yuanlong Hu, Yi Zhong, Linhai Jiang, Yuanzi Wu, Fen Yan, Da Huang, Jianhua Li, Fang Zhang*, Zhenyu Lin, Meishui Wang**, Zuquan Weng*",
+      "role": "corresponding",
+      "if": 8.3
+    },
+    {
+      "title": "A CRISPR/Cas12a-based label-free fluorescent method for visual signal output",
+      "journal": "Sensors and Actuators B: Chemical",
+      "year": "2022",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Liu Wang, Fang He, Xueyun Chen, Kaiyu He, Linlin Bai, Qiang Wang, Fang Zhang*, Xiahong Xu**",
+      "role": "corresponding",
+      "if": 8.3
+    },
+    {
+      "title": "Dual-color blending based visual LAMP for food allergen detection: A strategy with enlarged color variation range and contrast",
+      "journal": "Food Chemistry: X",
+      "year": "2022",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang*, Chenshan Gao, Linlin Bai, Yiquan Chen, Shuying Liang, Xucong Lv, Jinyuan Sun*, Shaoyun Wang*",
+      "role": "corresponding",
+      "if": 6.1
+    },
+    {
+      "title": "Rapid, Visual, and Sequence-Specific Detection of Salmonella in Egg Liquid with vis-NEAA, a CRISPR/Cas12 Empowered New Strategy",
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "year": "2022",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Linlin Bai#, Liu Wang#, Shuqin Huang, Rong Bai, Xucong Lv, Liping Sun, Fang Zhang*, Xiahong Xu*",
+      "role": "corresponding",
+      "if": 5.7
+    },
+    {
+      "title": "Ganoderic acids-rich ethanol extract from Ganoderma lucidum protects against alcoholic liver injury and modulates intestinal microbiota in mice with excessive alcohol intake",
+      "journal": "Current Research in Food Science",
+      "year": "2022",
+      "doi": "10.1016/j.crfs.2022.02.013",
+      "volume_issue_page": "5:515-530",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.3
+    },
+    {
+      "title": "VIR-CRISPR: Visual in-one-tube ultrafast RT-PCR and CRISPR method for instant SARS-CoV-2 detection",
+      "journal": "Analytica Chimica Acta",
+      "year": "2022",
+      "doi": "10.1016/j.aca.2022.339937",
+      "volume_issue_page": "1212:339937",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.2
+    },
+    {
+      "title": "Properties and Applications of Intelligent Packaging Indicators for Food Spoilage",
+      "journal": "Membranes",
+      "year": "2022",
+      "doi": "10.3390/membranes12050477",
+      "volume_issue_page": "12(5):477",
+      "authors": "Yuchen Ma, Wei Yang, Yujie Xia, Wenshuang Xue, Haixia Wu, Zhanming Li, Fang Zhang, Bin Qiu",
+      "role": "co-author",
+      "if": 4.2
+    },
+    {
+      "title": "Label-Free Colorimetric Method for Detection of Vibrio parahaemolyticus by Trimming the G-Quadruplex DNAzyme with CRISPR/Cas12a",
+      "journal": "Analytical Chemistry",
+      "year": "2021",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Xueyun Chen§, Liu Wang§, Fang He, Ganghui Chen, Linlin Bai, Kaiyu He, Fang Zhang*, Xiahong Xu*",
+      "role": "corresponding",
+      "if": 7.3
+    },
+    {
+      "title": "Effect of pH, ionic strength, chitosan deacetylation on the stability and rheological properties of O/W emulsions formulated with chitosan/casein complexes",
+      "journal": "Food Hydrocolloids",
+      "year": "2021",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang†, Xixi Cai†, Lan Ding, Shaoyun Wang*",
+      "role": "first",
+      "if": 13.8
+    },
+    {
+      "title": "Interactions of the Cocaine and Quinine Aptamer with Gold Nanoparticles under the Dilute Biosensor and Concentrated NMR Conditions",
+      "journal": "Langmuir",
+      "year": "2021",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Juewen Liu*",
+      "role": "first",
+      "if": 3.9
+    },
+    {
+      "title": "Label-Free Colorimetric Biosensors Based on Aptamers and Gold Nanoparticles: A Critical Review",
+      "journal": "Analysis & Sensing",
+      "year": "2021",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Juewen Liu*",
+      "role": "first",
+      "if": 3.5
+    },
+    {
+      "title": "Sensing Adenosine and ATP by Aptamers and Gold Nanoparticles: Opposite Trends of Color Change from Domination of Target Adsorption Instead of Aptamer Binding",
+      "journal": "ACS Sensors",
+      "year": "2020",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Po-Jung Jimmy Huang, Juewen Liu*",
+      "role": "first",
+      "if": 10.3
+    },
+    {
+      "title": "Good's buffers have various affinities to gold nanoparticles regulating fluorescent and colorimetric DNA sensing",
+      "journal": "Chemical Science",
+      "year": "2020",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Po-Jung Jimmy Huang, Jeffy Yang, Kellie Chong, Qianyi Ma, Miao Li, Fang Zhang, Woohyun J. Moon, Guomei Zhang, Juewen Liu*",
+      "role": "co-author",
+      "if": 7.5
+    },
+    {
+      "title": "Opposite salt-dependent stability of i-motif and duplex reflected in a single DNA hairpin nanomachine",
+      "journal": "Nanotechnology",
+      "year": "2020",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Biwu Liu, Anand Lopez, Shaoyun Wang, Juewen Liu",
+      "role": "first",
+      "if": 3.5
+    },
+    {
+      "title": "Detection of chloramphenicol with an aptamer-based colorimetric assay: critical evaluation of specific and unspecific binding of analyte molecules",
+      "journal": "Microchimica Acta",
+      "year": "2020",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Xiaoqi Tao, Fan He, Xixia Liu, Fang Zhang, Xin Wang, Yuanyuan Peng, Juewen Liu",
+      "role": "co-author",
+      "if": 5.7
+    },
+    {
+      "title": "Dopamine and Melamine Binding to Gold Nanoparticles Dominates Their Aptamer-based Label-free Colorimetric Sensing",
+      "journal": "Analytical Chemistry",
+      "year": "2020",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Xixia Liu, Fan He, Fang Zhang, Zijie Zhang, Zhicheng Huang, Juewen Liu*",
+      "role": "co-author",
+      "if": 7.3
+    },
+    {
+      "title": "Contamination-free visual detection of CaMV35S promoter amplicon using CRISPR/Cas12a coupled with a designed reaction vessel: Rapid, specific and sensitive",
+      "journal": "ANALYTICA CHIMICA ACTA",
+      "year": "2020",
+      "doi": "10.1016/J.ACA.2019.10.042",
+      "volume_issue_page": "1096:130-137",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.2
+    },
+    {
+      "title": "Identification of pork in raw meat or cooked meatballs within 20 min using rapid PCR coupled with visual detection",
+      "journal": "FOOD CONTROL",
+      "year": "2020",
+      "doi": "10.1016/J.FOODCONT.2019.106905",
+      "volume_issue_page": "109:106905",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.0
+    },
+    {
+      "title": "Rapid on-site detection of genetically modified soybean products by real-time loop-mediated isothermal amplification coupled with a designed portable amplifier",
+      "journal": "FOOD CHEMISTRY",
+      "year": "2020",
+      "doi": "10.1016/J.FOODCHEM.2020.126819",
+      "volume_issue_page": "323:126819",
+      "authors": "",
+      "role": "co-author",
+      "if": 10.4
+    },
+    {
+      "title": "Self-microemulsifying delivery system of WPI-Dai nanocomplex mixed with nonionic surfactant and its superiority in delivering daidzein",
+      "journal": "FOOD HYDROCOLLOIDS",
+      "year": "2020",
+      "doi": "10.1016/J.FOODHYD.2020.105952",
+      "volume_issue_page": "108:105952",
+      "authors": "",
+      "role": "co-author",
+      "if": 13.8
+    },
+    {
+      "title": "Visual detection for nucleic acid-based techniques as potential on-site detection methods. A review",
+      "journal": "ANALYTICA CHIMICA ACTA",
+      "year": "2020",
+      "doi": "10.1016/J.ACA.2019.11.056",
+      "volume_issue_page": "1099:1-15",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.2
+    },
+    {
+      "title": "Gold Nanoparticles Adsorb DNA and Aptamer Probes Too Strongly and a Comparison with Graphene Oxide for Biosensing",
+      "journal": "Analytical Chemistry",
+      "year": "2019",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang†,‡ Shaoyun Wang*,† Juewen Liu*,‡",
+      "role": "first",
+      "if": 7.3
+    },
+    {
+      "title": "Thermally-induced whey protein isolate-daidzein co-assemblies: Protein-based nanocomplexes as an inhibitor of precipitation/crystallization for hydrophobic drug",
+      "journal": "Food Chemistry",
+      "year": "2019",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Liang Lv, Caili Fu, Fang Zhang*, Shaoyun Wang*",
+      "role": "corresponding",
+      "if": 10.4
+    },
+    {
+      "title": "Fabrication of self-assembled Radix Pseudostellariae protein nanoparticles and the entrapment of curcumin",
+      "journal": "Food Chemistry",
+      "year": "2019",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Qingxia Weng, Xixi Cai, Fang Zhang*, Shaoyun Wang*",
+      "role": "corresponding",
+      "if": 10.4
+    },
+    {
+      "title": "Alginate-shelled SPI nanoparticle for encapsulation of resveratrol with enhanced colloidal and chemical stability",
+      "journal": "FOOD HYDROCOLLOIDS",
+      "year": "2019",
+      "doi": "10.1016/J.FOODHYD.2018.12.042",
+      "volume_issue_page": "90:313-320",
+      "authors": "",
+      "role": "co-author",
+      "if": 13.8
+    },
+    {
+      "title": "Fluorescein-Stabilized i-Motif DNA and Its Unfolding Leading to a Stronger Adsorption Affinity",
+      "journal": "LANGMUIR",
+      "year": "2019",
+      "doi": "10.1021/ACS.LANGMUIR.9B01606",
+      "volume_issue_page": "35(36):11932-11939",
+      "authors": "",
+      "role": "co-author",
+      "if": 3.9
+    },
+    {
+      "title": "Uracil-Mediated New Photospacer-Adjacent Motif of Cas12a To Realize Visualized DNA Detection at the Single-Copy Level Free from Contamination",
+      "journal": "ANALYTICAL CHEMISTRY",
+      "year": "2019",
+      "doi": "10.1021/ACS.ANALCHEM.9B02554",
+      "volume_issue_page": "91(17):11362-11366",
+      "authors": "",
+      "role": "co-author",
+      "if": 7.3
+    },
+    {
+      "title": "Counting DNA molecules with visual segment-based readouts in minutes",
+      "journal": "Chemical Communications",
+      "year": "2018",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Rui Wang#, Fang Zhang#, Cheng Qian, Cui Wu, Zunzhong Ye, Liu Wang, Wenjuan Qian, Jianfeng Ping, Jian Wu*, Yibin Ying",
+      "role": "first",
+      "if": 4.9
+    },
+    {
+      "title": "Systematic identification of long non-coding RNAs during pollen development and fertilization in Brassica rapa",
+      "journal": "The Plant Journal",
+      "year": "2018",
+      "doi": "10.1111/TPJ.14016",
+      "volume_issue_page": "96(1):203-222",
+      "authors": "",
+      "role": "co-author",
+      "if": 6.2
+    },
+    {
+      "title": "Instant, Visual, and Instrument-Free Method for On-Site Screening of GTS 40-3-2 Soybean Based on Body-Heat Triggered Recombinase Polymerase Amplification",
+      "journal": "Analytical Chemistry",
+      "year": "2017",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Rui Wang#, Fang Zhang#, Liu Wang, Wenjuan Qian, Cheng Qian, Jian Wu*, Yibin Ying",
+      "role": "first",
+      "if": 7.3
+    },
+    {
+      "title": "A powerless on-the-spot detection protocol for transgenic crops within 30 min, from leaf sampling up to results",
+      "journal": "Analytical and Bioanalytical Chemistry",
+      "year": "2016",
+      "doi": "10.1007/s00216-015-9128-x",
+      "volume_issue_page": "408(2):657-662",
+      "authors": "",
+      "role": "co-author",
+      "if": 4.3
+    },
+    {
+      "title": "Portable and amplicon contamination prevention cartridges for DNA amplification coupled to lateral flow detection",
+      "journal": "Analytical Methods",
+      "year": "2015",
+      "doi": "10.1039/c5ay00454c",
+      "volume_issue_page": "7(9):3692-3696",
+      "authors": "Rui Wang, Fang Zhang, Zunzhong Ye, Jian Wu, Liu Wang, Yuan Chen, Xiaofu Wang, Junfeng Xu",
+      "role": "co-author",
+      "if": 3.0
+    },
+    {
+      "title": "The detection of T-Nos, a genetic element present in GMOs, by cross-priming isothermal amplification with real-time fluorescence",
+      "journal": "Analytical and Bioanalytical Chemistry",
+      "year": "2014",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Liu Wang, Kai Fan, Jian Wu, Yibin Ying",
+      "role": "first",
+      "if": 4.3
+    },
+    {
+      "title": "Simple Screening Strategy with Only Water Bath Needed for the Identification of Insect-Resistant Genetically Modified Rice",
+      "journal": "Analytical Chemistry",
+      "year": "2014",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Liu Wang, Rui Wang, Yibin Ying, Jian Wu*",
+      "role": "first",
+      "if": 7.3
+    },
+    {
+      "title": "Tracing phosphate ions generated during DNA amplification and its simple use for visual detection of isothermal amplified products",
+      "journal": "Chemical Communications",
+      "year": "2014",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Rui Wang, Liu Wang, Jian Wu*, Yibin Ying",
+      "role": "first",
+      "if": 4.9
+    },
+    {
+      "title": "Portable pH-inspired electrochemical detection of DNA amplification",
+      "journal": "Chemical Communications",
+      "year": "2014",
+      "doi": "",
+      "volume_issue_page": "",
+      "authors": "Fang Zhang, Jian Wu*, Rui Wang, Liu Wang, Yibin Ying",
+      "role": "first",
+      "if": 4.9
+    },
+    {
+      "title": "On-point detection of GM rice in 20 minutes with pullulan as CPA acceleration additive",
+      "journal": "Analytical Methods",
+      "year": "2014",
+      "doi": "10.1039/c4ay02427c",
+      "volume_issue_page": "6(23):9198-9201",
+      "authors": "Rui Wang, Jian Wu, Fang Zhang, Liu Wang, Feng Ji",
+      "role": "co-author",
+      "if": 3.0
+    }
+  ],
+  "funding": [
+    {
+      "name": "饲料及畜产品质量安全精准检测关键技术与装备·全提取与主动侦查技术研发",
+      "agency": "国家重点研发计划子课题",
+      "grant_id": "2023YFD1301503",
+      "role": "PI",
+      "period": "2023.12-2027.12",
+      "amount": "80万",
+      "level": "national",
+      "status": "active"
+    },
+    {
+      "name": "超稳可控纳米探针协同CRISPR/Cas14高保真信号传感体系的通用型抗生素检测方法研究",
+      "agency": "国家自然科学基金(面上)",
+      "grant_id": "32172285",
+      "role": "PI",
+      "period": "2022.1-2025.12",
+      "amount": "58万",
+      "level": "national",
+      "status": "active"
+    },
+    {
+      "name": "基于NEAR放大及发射光叠加信号分析的高灵敏可视化双食源性病毒检测方法研究",
+      "agency": "国家自然科学基金(青年)",
+      "grant_id": "31701683",
+      "role": "PI",
+      "period": "2018.1-2020.12",
+      "amount": "25万",
+      "level": "national",
+      "status": "completed"
+    },
+    {
+      "name": "闽台特色海鱼加工过程中品质形成的分子基础及调控机制",
+      "agency": "国家自然科学基金联合基金",
+      "grant_id": "U1905202",
+      "role": "参与(第二)",
+      "period": "2020.1-2023.12",
+      "amount": "222万",
+      "level": "national",
+      "status": "completed"
+    },
+    {
+      "name": "食品加工与储藏方向子课题",
+      "agency": "国家重点研发计划子课题",
+      "grant_id": "2016YFD0400200",
+      "role": "co-PI",
+      "period": "2016.7-2020.12",
+      "amount": "230万",
+      "level": "national",
+      "status": "completed"
+    },
+    {
+      "name": "基于功能化SELEX的CRISPR光裂解适配体开关开发及其在食品病原体检测中的应用",
+      "agency": "福建省自然科学基金(面上)",
+      "grant_id": "2026J001140",
+      "role": "PI",
+      "period": "2026.5-2029.4",
+      "amount": "8万",
+      "level": "provincial",
+      "status": "active"
+    },
+    {
+      "name": "冷链水产中致病菌的新型快速检测方法研究(旗山学者)",
+      "agency": "旗山学者(XRC·校级人才项目)",
+      "grant_id": "XRC-24068",
+      "role": "PI",
+      "period": "2023.8-2028.7",
+      "amount": "30万",
+      "level": "university",
+      "status": "active"
+    },
+    {
+      "name": "基于CRISPR/Cas12a传感的开源型高稳高保真抗生素检测新方法研究",
+      "agency": "福建省自然科学基金(面上)",
+      "grant_id": "2022J01100",
+      "role": "PI",
+      "period": "2022.3-2025.3",
+      "amount": "10万",
+      "level": "provincial",
+      "status": "completed"
+    },
+    {
+      "name": "基于颜色演变(Color-evolution)和FRET的高灵敏可视化双重致病菌检测方法研究",
+      "agency": "福建省自然科学基金(面上)",
+      "grant_id": "2019J01239",
+      "role": "PI",
+      "period": "2019.4-2022.4",
+      "amount": "10万",
+      "level": "provincial",
+      "status": "completed"
+    },
+    {
+      "name": "基于金属荧光增强(MEF)探针和CRISPR/Cas12a的高保真抗生素快速检测方法研究",
+      "agency": "中国博士后基金(面上)",
+      "grant_id": "2022M710709",
+      "role": "PI",
+      "period": "2022.06-2023.10",
+      "amount": "8万",
+      "level": "provincial",
+      "status": "completed"
+    },
+    {
+      "name": "基于CRISPR/Cas14和多通道芯片的抗生素类新污染物现场快速检测技术研究及应用",
+      "agency": "福建省科技计划引导性项目",
+      "grant_id": "2022N0002",
+      "role": "PI",
+      "period": "",
+      "amount": "",
+      "level": "provincial",
+      "status": "active"
+    },
+    {
+      "name": "水产原料及制品中抗生素残留的荧光可视化检测方法研究",
+      "agency": "福州市科技计划合作项目(聚泉)",
+      "grant_id": "2021-N-133",
+      "role": "PI",
+      "period": "2021.6-2023.5",
+      "amount": "3万",
+      "level": "municipal",
+      "status": "completed"
+    },
+    {
+      "name": "出口鱼类制品中重要水产致病菌的自检自控关键技术开发及应用推广",
+      "agency": "福州市校(院所)科技合作项目",
+      "grant_id": "2017-G-64",
+      "role": "PI",
+      "period": "2017.3-2019.3",
+      "amount": "10万",
+      "level": "municipal",
+      "status": "completed"
+    },
+    {
+      "name": "基于DNA回路的新型高特异性水产致病菌检测方法研究",
+      "agency": "福建省教育厅中青年教育科研项目",
+      "grant_id": "JAT170079",
+      "role": "PI",
+      "period": "2017.7-2019.9",
+      "amount": "1.5万",
+      "level": "municipal",
+      "status": "completed"
+    },
+    {
+      "name": "基于CRISPR/Cas14的开源型真菌毒素检测方法研究",
+      "agency": "浙江省农科院开放课题",
+      "grant_id": "2021DG700024-KF202215",
+      "role": "PI",
+      "period": "2022-2023",
+      "amount": "6万",
+      "level": "open",
+      "status": "completed"
+    },
+    {
+      "name": "基于CRISPR/Cas14的开源型真菌毒素检测方法研究",
+      "agency": "北京工商大学开放课题",
+      "grant_id": "FQS-202102",
+      "role": "PI",
+      "period": "2021.6-2022.5",
+      "amount": "3万",
+      "level": "open",
+      "status": "completed"
+    },
+    {
+      "name": "基于CRISPR/Cas12a的新型进出口食品致病菌的快速检测方法研究",
+      "agency": "海关开放课题",
+      "grant_id": "FJKF-2021-02",
+      "role": "PI",
+      "period": "2021.8-2022.8",
+      "amount": "2万",
+      "level": "open",
+      "status": "completed"
+    },
+    {
+      "name": "基于CRISPR/Cas12a的冷链鱼类制品致病菌的快速检测方法研究",
+      "agency": "福建水产所·省海洋生物重点实验室",
+      "grant_id": "2023fjscq02",
+      "role": "PI",
+      "period": "2023.12-2025.11",
+      "amount": "2万",
+      "level": "open",
+      "status": "active"
+    },
+    {
+      "name": "基于CRISPR/Cas14及金属增强探针的开源型小分子信号传感技术研究",
+      "agency": "青岛科技大学·光电传感教育部重点实验室",
+      "grant_id": "M2023-7",
+      "role": "PI",
+      "period": "2022-2024",
+      "amount": "2万",
+      "level": "open",
+      "status": "completed"
+    },
+    {
+      "name": "基于CRISPR/Cas12a的冷链鱼类制品致病菌的快速检测方法研究",
+      "agency": "浙工大开放课题",
+      "grant_id": "SL2021009",
+      "role": "PI",
+      "period": "2021-2022",
+      "amount": "1万",
+      "level": "open",
+      "status": "completed"
+    },
+    {
+      "name": "一种高尔基体蛋白73检测方法(免疫磁珠法)的开发",
+      "agency": "横向(广生堂药业)",
+      "grant_id": "",
+      "role": "PI",
+      "period": "2017.9-2018.9",
+      "amount": "25万",
+      "level": "industry",
+      "status": "completed"
+    },
+    {
+      "name": "G四联体DNA分子机器的设计及其在转基因检测中的应用",
+      "agency": "福州大学科研启动",
+      "grant_id": "0800-510405",
+      "role": "PI",
+      "period": "2016.6-2019.6",
+      "amount": "10万",
+      "level": "university",
+      "status": "completed"
+    },
+    {
+      "name": "基于DNA回路及恒温扩增的高特异性现场核酸分析方法研究",
+      "agency": "福州大学开放测试基金",
+      "grant_id": "2017T024",
+      "role": "PI",
+      "period": "2017.1-2017.12",
+      "amount": "0.5万",
+      "level": "university",
+      "status": "completed"
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Food Analysis",
+      "level": "Undergraduate",
+      "period": "2017-2018"
+    },
+    {
+      "course": "Food Microbiology (+Experiment)",
+      "level": "Undergraduate",
+      "period": "2021-2022"
+    },
+    {
+      "course": "Development and Utilization of Marine Living Resources",
+      "level": "Undergraduate",
+      "period": "2021-2023"
+    },
+    {
+      "course": "Modern Food Biotechnology",
+      "level": "Graduate",
+      "period": "2015-2016"
+    },
+    {
+      "course": "Modern Instrumental Analysis (Food)",
+      "level": "Graduate",
+      "period": "2021-2023"
+    }
+  ],
+  "supervision": [
+    {
+      "name": "Huan Zeng (曾环)",
+      "role": "Graduate student",
+      "period": "2021-2024"
+    },
+    {
+      "name": "Shuqin Huang (黄淑琴)",
+      "role": "Graduate student",
+      "period": "2020-2023"
+    },
+    {
+      "name": "Ganghui Chen (陈刚辉)",
+      "role": "Graduate student",
+      "period": "2020-2023"
+    },
+    {
+      "name": "Weibo Luo (罗微博)",
+      "role": "Graduate student",
+      "period": "2019-2022"
+    },
+    {
+      "name": "Linlin Bai (白琳琳)",
+      "role": "Graduate student",
+      "period": "2018-2021"
+    },
+    {
+      "name": "Yishan Mahu (马湖伊杉)",
+      "role": "Graduate student",
+      "period": "2021-2024"
+    },
+    {
+      "name": "Chenshan Gao (陈山高)",
+      "role": "Graduate student",
+      "period": "2020-2023"
+    },
+    {
+      "name": "Xueyun Chen (陈雪雲)",
+      "role": "Graduate student",
+      "period": "2018-2021"
+    }
+  ],
+  "service": [
+    {
+      "name": "Guest Editor, Frontiers in Chemistry",
+      "detail": "Special Issue: Emerging Trends in Biosensors: Bridging Chemistry and Practical Applications",
+      "period": "2025",
+      "type": "guest-editor"
+    },
+    {
+      "name": "Guest Editor, Biosensors",
+      "detail": "Special Issue: Biosensors Aiming for Practical Uses",
+      "period": "2024",
+      "type": "guest-editor"
+    },
+    {
+      "name": "Director, Fujian Provincial Enterprise Technology Innovation Promotion Association",
+      "detail": "福建省企业技术创新促进会",
+      "period": "2021-present",
+      "type": "director"
+    },
+    {
+      "name": "Director, Fujian Biological Society",
+      "detail": "福建省生物学会",
+      "period": "2021-present",
+      "type": "director"
+    },
+    {
+      "name": "Reviewer for peer-reviewed journals",
+      "detail": "J. Agric. Food Chem., Food Chem., Anal. Bioanal. Chem., Anal. Chem., Biosens. Bioelectron., Talanta, Analyst, et al.",
+      "period": "ongoing",
+      "type": "reviewer"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Innovation Award (2nd Prize), Invention and Entrepreneurship Award",
+      "year": "2023",
+      "level": "national"
+    },
+    {
+      "name": "Chen Chun Teaching Fund",
+      "year": "2023",
+      "level": "university"
+    },
+    {
+      "name": "Qishan Scholar, Fuzhou University",
+      "year": "2023",
+      "level": "university"
+    },
+    {
+      "name": "High-level Talents of Fujian Province",
+      "year": "2023",
+      "level": "provincial"
+    },
+    {
+      "name": "Nominee, Zhejiang University Excellent Doctoral Dissertation",
+      "year": "2017",
+      "level": "university"
+    },
+    {
+      "name": "Outstanding Graduates of Zhejiang Province",
+      "year": "2016",
+      "level": "provincial"
+    },
+    {
+      "name": "Outstanding Graduates of Zhejiang University",
+      "year": "2015",
+      "level": "university"
+    },
+    {
+      "name": "National Scholarship for PhD Students",
+      "year": "2014",
+      "level": "national"
+    },
+    {
+      "name": "Outstanding Graduate Students Reward, Zhejiang University",
+      "year": "2013-2014",
+      "level": "university"
+    },
+    {
+      "name": "Miyoshi Graduate Students Reward, Zhejiang University",
+      "year": "2013-2014",
+      "level": "university"
+    },
+    {
+      "name": "Annual Scholar Star, Intelligent Bio-industrial Equipment Innovation Team",
+      "year": "2013-2014",
+      "level": "university"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-11",
+      "tag": "Invited Talk",
+      "title": "Invited talk at CRISPR BUILD 2026 (CRISPR Diagnostics Developer Conference)",
+      "detail": "张芳作邀请报告 (invited talk)",
+      "photos": [
+        "assets/photos/202611_CRISPR_Builder_1st/Weixin Image_20261125140134_174_398.jpg"
+      ]
+    }
+  ],
+  "team": []
+}
