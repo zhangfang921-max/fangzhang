@@ -38,17 +38,17 @@
       {
         "name": "Nucleic acid analysis & functional nucleic acid biosensing",
         "desc": "DNA/RNA detection methods; functional nucleic acids (aptamers, DNAzymes, G-quadruplexes) engineered to sense non-nucleic-acid targets.",
-        "image": "assets/directions/direction1_nucleic.svg"
+        "image": ""
       },
       {
         "name": "CRISPR/Cas & nucleic acid-guided protein diagnostics",
         "desc": "Programmable CRISPR/Cas12a/Cas14a, TtAgo and Tas systems for ultrasensitive, field-deployable diagnostics.",
-        "image": "assets/directions/direction2_crispr.svg"
+        "image": ""
       },
       {
         "name": "Nanomaterials & AI-enabled biosensing platforms",
         "desc": "Nanomaterials, machine learning, and emerging protein tools for faster, simpler, and cheaper detection solutions.",
-        "image": "assets/directions/direction3_nano.svg"
+        "image": ""
       }
     ],
     "vision": "Advancing rapid, accessible and affordable diagnostics across the One Health continuum.",
@@ -320,7 +320,7 @@
       "title": "Nucleic acid-guided protein-empowered aquatic contaminants sensing",
       "journal": "Trends in Chemistry",
       "year": "2025",
-      "doi": "",
+      "doi": "10.1016/j.trechm.2025.09.013",
       "volume_issue_page": "",
       "authors": "Fang Zhang#*, Shiau Wei Liew#, Sin Yu Lam#, Chun Kit Kwok*",
       "role": "co-first & corresponding",
@@ -382,7 +382,7 @@
       "title": "Aptamer-based self-assembled nanomicelle enables efficient and targeted drug delivery",
       "journal": "Journal of Nanobiotechnology",
       "year": "2023",
-      "doi": "",
+      "doi": "10.1186/s12951-023-02164-y",
       "volume_issue_page": "",
       "authors": "Ganghui Chen, Dongsheng Mao, Xuan Wang, Jingqi Chen, Chao Gu, Shuqin Huang, Yu Yang*, Fang Zhang*, Weihong Tan",
       "role": "corresponding",
@@ -400,7 +400,7 @@
       "title": "Updated toolkits for nucleic acid-based biosensors",
       "journal": "TrAC Trends in Analytical Chemistry",
       "year": "2023",
-      "doi": "",
+      "doi": "10.1016/j.trac.2023.116943",
       "volume_issue_page": "",
       "authors": "Fang Zhang*, Ganghui Chen, Chenshan Gao, Shuqin Huang, Yishan Mahu, Fang Luo, Lixin Wang*, Zhenyu Lin*",
       "role": "corresponding",
@@ -487,7 +487,7 @@
       "title": "A CRISPR/Cas12a-based label-free fluorescent method for visual signal output",
       "journal": "Sensors and Actuators B: Chemical",
       "year": "2022",
-      "doi": "",
+      "doi": "10.1016/j.snb.2022.132368",
       "volume_issue_page": "",
       "authors": "Liu Wang, Fang He, Xueyun Chen, Kaiyu He, Linlin Bai, Qiang Wang, Fang Zhang*, Xiahong Xu*",
       "role": "corresponding",
