@@ -62,7 +62,9 @@
       "authors": "Xueming He, Yiwen Zhuang, Jie You, Fang Zhang, Fei Shen",
       "role": "co-author",
       "if": 6.1,
-      "month": 1
+      "month": 1,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "CRISPR-Scan: Cas13a Mismatch Tolerance Enabled Ultra-Multiplexed Detection of Same-Site Indels in Acute Myeloid Leukemia",
@@ -70,10 +72,14 @@
       "year": "2026",
       "doi": "10.1002/advs.78229",
       "volume_issue_page": "e78229",
-      "authors": "Linlin Bai, Bei Wang, Mingmin Shi, Dianwei Liu, Huimin Ji, Ting Wang, Ziwei Wang, Kaiming Guo, Xinyang Dou, Chunyan Qian, Fang Zhang, Yongming Wang, Hongju Mao, Rui Wang",
+      "authors": "Linlin Bai, Bei Wang, Mingmin Shi, Dianwei Liu, Huimin Ji, Ting Wang, Ziwei Wang, Kaiming Guo, Xinyang Dou, Chunyan Qian, Fang Zhang, Yongming Wang, Hongju Mao, Rui Wang*",
       "role": "co-author",
       "if": 14.1,
-      "month": 10
+      "month": 10,
+      "co_first": [],
+      "co_corresponding": [
+        "Rui Wang"
+      ]
     },
     {
       "title": "Rapid Broad-Spectrum Colorimetric Detection of Bacteria Using Polylysine-Mediated Gold Nanoparticle Aggregation",
@@ -84,7 +90,11 @@
       "authors": "Bozhou Chen, Yu Wu, Fang Zhang, Guan Yang, Sheng Chen*",
       "role": "co-author",
       "if": 7.3,
-      "month": 9
+      "month": 9,
+      "co_first": [],
+      "co_corresponding": [
+        "Sheng Chen"
+      ]
     },
     {
       "title": "A highly sensitive universal modularized CRISPR/Cas14a system for antibiotic sensing",
@@ -92,10 +102,12 @@
       "year": "2026",
       "doi": "10.1016/j.snb.2026.139657",
       "volume_issue_page": "463:139657",
-      "authors": "",
+      "authors": "Shuqin Huang, Huan Zeng, Anqi Wu, Minxi Zhao, Nan Pan, Zhiyu Liu, Xueming He, Sheng Chen, Liu Wang, Chun Kit Kwok, Fang Zhang",
       "role": "co-author",
       "if": 8.3,
-      "month": 9
+      "month": 9,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Improved prediction for AFB1 in naturally contaminated peanut oil by fusing fluorescence with visible and near-infrared absorption and scattering properties",
@@ -103,10 +115,12 @@
       "year": "2026",
       "doi": "10.1016/j.foodcont.2026.112082",
       "volume_issue_page": "186:112082",
-      "authors": "",
+      "authors": "Xueming He, Yuanji Xiao, Yongnan Lu, Xiaoyun Yang, Fang Zhang",
       "role": "co-author",
       "if": 6.0,
-      "month": 8
+      "month": 8,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Superhydrophobic sponge generated in situ based on dopamine as cleanup absorbent for multi-residue determination of organophosphorus pesticides in feed",
@@ -117,7 +131,11 @@
       "authors": "Chunni Wei, Minshi Chen, Qianyang Zhong, Huajian Liu, Minjian Wu, Xiaojing Li, Zhenyu Lin, Fang Zhang*",
       "role": "corresponding",
       "if": 5.7,
-      "month": 8
+      "month": 8,
+      "co_first": [],
+      "co_corresponding": [
+        "Fang Zhang"
+      ]
     },
     {
       "title": "A CRISPR/Cas12a−MXene Nanozyme Platform for Universal Detection of Trace DNA",
@@ -125,10 +143,12 @@
       "year": "2026",
       "doi": "10.1021/acssensors.5c03702",
       "volume_issue_page": "11(6):4345-4356",
-      "authors": "",
+      "authors": "Sufang Liu, Yuanlong Hu, Miao Zheng, Fang Zhang, Zhichao Yu, Qi Sun, Dianping Tang, Zuquan Weng, Zaisheng Ye",
       "role": "co-author",
       "if": 10.3,
-      "month": 6
+      "month": 6,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Rapid quality detection in colored potatoes during alternating cold and ambient storage: Utilizing absorption and scattering properties",
@@ -136,10 +156,12 @@
       "year": "2026",
       "doi": "10.1016/j.foodres.2026.118937",
       "volume_issue_page": "232:118937",
-      "authors": "",
+      "authors": "Yuanji Xiao, Jianyu Wang, Jie You, Fang Zhang, Xueming He",
       "role": "co-author",
       "if": 7.0,
-      "month": 5
+      "month": 5,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Reduced Graphene Oxide Coated Melamine Sponge as Cleanup Absorbent for Multi-residue Analysis of Organophosphorus Pesticides in Feed",
@@ -147,9 +169,18 @@
       "year": "2026",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Chunni Wei¹, Minshi Chen¹, Qianyang Zhong, Huajian Liu, Minjian Wu, Xiaojing Li*, Zhenyu Lin*, Fang Zhang*",
+      "authors": "Chunni Wei#, Minshi Chen#, Qianyang Zhong, Huajian Liu, Minjian Wu, Xiaojing Li*, Zhenyu Lin*, Fang Zhang*",
       "role": "corresponding",
-      "if": 4.8
+      "if": 4.8,
+      "co_first": [
+        "Chunni Wei",
+        "Minshi Chen"
+      ],
+      "co_corresponding": [
+        "Xiaojing Li",
+        "Zhenyu Lin",
+        "Fang Zhang"
+      ]
     },
     {
       "title": "One-pot quick preparation of a magnetic nanocomposite based on aminated/fluorinated carbon nanotubes for the efficient capture of fluoroquinolones in aqueous samples",
@@ -157,10 +188,12 @@
       "year": "2025",
       "doi": "10.1016/j.molliq.2025.128577",
       "volume_issue_page": "437:128577",
-      "authors": "",
+      "authors": "Shuhua Wang, Caili Fu, Zian Lin, Yuangen Lin, Yiqing Xu, Zhigang Gao, Fang Zhang, Ling Fang, Xiaojing Li, Jianwei Fu",
       "role": "co-author",
       "if": 6.0,
-      "month": 11
+      "month": 11,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "A colorimetric immunoassay for visual detection of zearalenone based on the Fenton reaction on gold nanorods",
@@ -171,7 +204,9 @@
       "authors": "Yuanlong Hu, Jiamin Chen, Sifang Wu, Yi Zhong, Jialin Ye, Lingqing Ye, Yuanzi Wu, Da Huang, ... Fang Zhang ...(11人)",
       "role": "co-author",
       "if": 3.0,
-      "month": 9
+      "month": 9,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Cellulose-like chitosan microfibrils facilitate targeted release and enhance the prolonged residence time of quercetin-selenium nanoparticles for Alzheimer's disease treatment",
@@ -179,10 +214,12 @@
       "year": "2025",
       "doi": "10.1016/J.IJPHARM.2024.125129",
       "volume_issue_page": "670:125129",
-      "authors": "",
+      "authors": "Chaoping Fang, Qingchang Chen, Guodong Zheng, Fang Zhang, Zhiwei Li, Jingtao Mei, Xiaohua Wu, Xu Chen, Kailu Zeng, Licong Yang",
       "role": "co-author",
       "if": 6.1,
-      "month": 2
+      "month": 2,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Self-assembled DNAzyme based on the nicking enzyme amplification reaction for microRNA detection",
@@ -190,9 +227,18 @@
       "year": "2025",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Hao Zhong†, Xin Huang†, Ganghui Chen†, Ting Zhang, Dongsheng Mao, Zhenyu Lin*, Fang Zhang*",
+      "authors": "Hao Zhong#, Xin Huang#, Ganghui Chen#, Ting Zhang, Dongsheng Mao, Zhenyu Lin*, Fang Zhang*",
       "role": "corresponding",
-      "if": 3.0
+      "if": 3.0,
+      "co_first": [
+        "Hao Zhong",
+        "Xin Huang",
+        "Ganghui Chen"
+      ],
+      "co_corresponding": [
+        "Zhenyu Lin",
+        "Fang Zhang"
+      ]
     },
     {
       "title": "MVPCR: Multiplex Visual Detection Strategy Based on Ultrafast PCR for Point-of-Care Pathogens Detection Within 10 Min",
@@ -202,7 +248,15 @@
       "volume_issue_page": "",
       "authors": "Ziqin Zhang#, Cui Wu#, Linlin Bai, Kaiming Guo, Ting Wang, Dianwei Liu, Mingrui Zhu, Feng Qian, Fang Zhang*, Rui Wang*",
       "role": "corresponding",
-      "if": 2.0
+      "if": 2.0,
+      "co_first": [
+        "Ziqin Zhang",
+        "Cui Wu"
+      ],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Rui Wang"
+      ]
     },
     {
       "title": "振动光谱技术在鱼油品质检测中的应用研究进展",
@@ -210,8 +264,16 @@
       "year": "2025",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "马湖伊杉¹,², 潘南², 林振宇³, 陈晓婷², 吴靖娜⁴, 张芳¹*, 刘智禹²*",
-      "role": "corresponding"
+      "authors": "马湖伊杉#, 潘南#, 林振宇, 陈晓婷, 吴靖娜, 张芳*, 刘智禹*",
+      "role": "corresponding",
+      "co_first": [
+        "马湖伊杉",
+        "潘南"
+      ],
+      "co_corresponding": [
+        "张芳",
+        "刘智禹"
+      ]
     },
     {
       "title": "Nucleic acid-guided protein-empowered aquatic contaminants sensing",
@@ -219,9 +281,18 @@
       "year": "2025",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Fang Zhang*, Shiau Wei Liew, Sin Yu Lam, Chun Kit Kwok*",
+      "authors": "Fang Zhang#*, Shiau Wei Liew#, Sin Yu Lam#, Chun Kit Kwok*",
       "role": "co-first & corresponding",
-      "if": 11.1
+      "if": 11.1,
+      "co_first": [
+        "Fang Zhang",
+        "Shiau Wei Liew",
+        "Sin Yu Lam"
+      ],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Chun Kit Kwok"
+      ]
     },
     {
       "title": "Multiplex detection methods for mycotoxins in agricultural products: A systematic review",
@@ -229,9 +300,14 @@
       "year": "2024",
       "doi": "10.1016/j.foodcont.2023.110207",
       "volume_issue_page": "158:110207",
-      "authors": "Chencheng Wei, Handong Wang, Gaozheng Li, Jianhua Li, Fang Zhang, Yuezhong Wu**, Zuquan Weng*",
+      "authors": "Chencheng Wei, Handong Wang, Gaozheng Li, Jianhua Li, Fang Zhang, Yuezhong Wu*, Zuquan Weng*",
       "role": "co-author",
-      "if": 6.0
+      "if": 6.0,
+      "co_first": [],
+      "co_corresponding": [
+        "Yuezhong Wu",
+        "Zuquan Weng"
+      ]
     },
     {
       "title": "Fluorescent biosensor based on MB-APT combined with Pt NPs for the detection of infectious bacteria in mouse and human wounds",
@@ -239,10 +315,19 @@
       "year": "2023",
       "doi": "10.1016/j.snb.2023.134318",
       "volume_issue_page": "393:134318",
-      "authors": "Lanmei Gao¹, Houbing Zheng¹, Yuanlong Hu, Yi Zhong, Linhai Jiang, Yuanzi Wu, Fen Yan, Da Huang, Jianhua Li, Fang Zhang*, Zhenyu Lin, Meishui Wang**, Zuquan Weng*",
+      "authors": "Lanmei Gao#, Houbing Zheng#, Yuanlong Hu, Yi Zhong, Linhai Jiang, Yuanzi Wu, Fen Yan, Da Huang, Jianhua Li, Fang Zhang*, Zhenyu Lin, Meishui Wang*, Zuquan Weng*",
       "role": "corresponding",
       "if": 8.3,
-      "month": 10
+      "month": 10,
+      "co_first": [
+        "Lanmei Gao",
+        "Houbing Zheng"
+      ],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Meishui Wang",
+        "Zuquan Weng"
+      ]
     },
     {
       "title": "Aptamer-based self-assembled nanomicelle enables efficient and targeted drug delivery",
@@ -252,7 +337,12 @@
       "volume_issue_page": "",
       "authors": "Ganghui Chen, Dongsheng Mao, Xuan Wang, Jingqi Chen, Chao Gu, Shuqin Huang, Yu Yang*, Fang Zhang*, Weihong Tan",
       "role": "corresponding",
-      "if": 15.0
+      "if": 15.0,
+      "co_first": [],
+      "co_corresponding": [
+        "Yu Yang",
+        "Fang Zhang"
+      ]
     },
     {
       "title": "Updated toolkits for nucleic acid-based biosensors",
@@ -260,9 +350,15 @@
       "year": "2023",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Fang Zhang**, Ganghui Chen, Chenshan Gao, Shuqin Huang, Yishan Mahu, Fang Luo, Lixin Wang***, Zhenyu Lin*",
+      "authors": "Fang Zhang*, Ganghui Chen, Chenshan Gao, Shuqin Huang, Yishan Mahu, Fang Luo, Lixin Wang*, Zhenyu Lin*",
       "role": "corresponding",
-      "if": 13.1
+      "if": 13.1,
+      "co_first": [],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Lixin Wang",
+        "Zhenyu Lin"
+      ]
     },
     {
       "title": "Graphene oxide assisting the visual detection of Salmonella by CRISPR/Cas12a",
@@ -270,9 +366,18 @@
       "year": "2023",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Liu Wang¹, Linlin Bai¹, Hongmei Wang, Kaiyu He, Rui Wang, Qiang Wang*, Fang Zhang*, Xiahong Xu*",
+      "authors": "Liu Wang#, Linlin Bai#, Hongmei Wang, Kaiyu He, Rui Wang, Qiang Wang*, Fang Zhang*, Xiahong Xu*",
       "role": "corresponding",
-      "if": 4.8
+      "if": 4.8,
+      "co_first": [
+        "Liu Wang",
+        "Linlin Bai"
+      ],
+      "co_corresponding": [
+        "Qiang Wang",
+        "Fang Zhang",
+        "Xiahong Xu"
+      ]
     },
     {
       "title": "Label-Free Sequence-Specific Visualization of LAMP Amplified Salmonella via DNA Machine Produces G-Quadruplex DNAzyme",
@@ -282,7 +387,12 @@
       "volume_issue_page": "",
       "authors": "Huan Zeng, Shuqin Huang, Yunong Chen, Minshi Chen, Kaiyu He, Caili Fu, Qiang Wang, Fang Zhang*, Liu Wang*, Xiahong Xu",
       "role": "corresponding",
-      "if": 5.7
+      "if": 5.7,
+      "co_first": [],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Liu Wang"
+      ]
     },
     {
       "title": "VIR-CRISPR: Visual in-one-tube ultrafast RT-PCR and CRISPR method for instant SARS-CoV-2 detection",
@@ -290,10 +400,12 @@
       "year": "2022",
       "doi": "10.1016/j.aca.2022.339937",
       "volume_issue_page": "1212:339937",
-      "authors": "",
+      "authors": "Rui Wang, Yongfang Li, Yanan Pang, Fang Zhang, Fuyou Li, Shihua Luo, Chunyan Qian",
       "role": "co-author",
       "if": 6.2,
-      "month": 6
+      "month": 6,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Properties and Applications of Intelligent Packaging Indicators for Food Spoilage",
@@ -304,7 +416,9 @@
       "authors": "Yuchen Ma, Wei Yang, Yujie Xia, Wenshuang Xue, Haixia Wu, Zhanming Li, Fang Zhang, Bin Qiu",
       "role": "co-author",
       "if": 4.2,
-      "month": 4
+      "month": 4,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "A CRISPR/Cas12a-based label-free fluorescent method for visual signal output",
@@ -312,9 +426,14 @@
       "year": "2022",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Liu Wang, Fang He, Xueyun Chen, Kaiyu He, Linlin Bai, Qiang Wang, Fang Zhang*, Xiahong Xu**",
+      "authors": "Liu Wang, Fang He, Xueyun Chen, Kaiyu He, Linlin Bai, Qiang Wang, Fang Zhang*, Xiahong Xu*",
       "role": "corresponding",
-      "if": 8.3
+      "if": 8.3,
+      "co_first": [],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Xiahong Xu"
+      ]
     },
     {
       "title": "Dual-color blending based visual LAMP for food allergen detection: A strategy with enlarged color variation range and contrast",
@@ -324,7 +443,13 @@
       "volume_issue_page": "",
       "authors": "Fang Zhang*, Chenshan Gao, Linlin Bai, Yiquan Chen, Shuying Liang, Xucong Lv, Jinyuan Sun*, Shaoyun Wang*",
       "role": "corresponding",
-      "if": 6.1
+      "if": 6.1,
+      "co_first": [],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Jinyuan Sun",
+        "Shaoyun Wang"
+      ]
     },
     {
       "title": "Rapid, Visual, and Sequence-Specific Detection of Salmonella in Egg Liquid with vis-NEAA, a CRISPR/Cas12 Empowered New Strategy",
@@ -334,7 +459,15 @@
       "volume_issue_page": "",
       "authors": "Linlin Bai#, Liu Wang#, Shuqin Huang, Rong Bai, Xucong Lv, Liping Sun, Fang Zhang*, Xiahong Xu*",
       "role": "corresponding",
-      "if": 5.7
+      "if": 5.7,
+      "co_first": [
+        "Linlin Bai",
+        "Liu Wang"
+      ],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Xiahong Xu"
+      ]
     },
     {
       "title": "Ganoderic acids-rich ethanol extract from Ganoderma lucidum protects against alcoholic liver injury and modulates intestinal microbiota in mice with excessive alcohol intake",
@@ -342,9 +475,11 @@
       "year": "2022",
       "doi": "10.1016/j.crfs.2022.02.013",
       "volume_issue_page": "5:515-530",
-      "authors": "",
+      "authors": "Wei-Ling Guo, Ying-Jia Cao, Shi-Ze You, Qi Wu, Fang Zhang, Jin-Zhi Han, Xu-Cong Lv, Ping-Fan Rao, Lian-Zhong Ai, Li Ni",
       "role": "co-author",
-      "if": 6.3
+      "if": 6.3,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Label-Free Colorimetric Method for Detection of Vibrio parahaemolyticus by Trimming the G-Quadruplex DNAzyme with CRISPR/Cas12a",
@@ -352,9 +487,17 @@
       "year": "2021",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Xueyun Chen§, Liu Wang§, Fang He, Ganghui Chen, Linlin Bai, Kaiyu He, Fang Zhang*, Xiahong Xu*",
+      "authors": "Xueyun Chen#, Liu Wang#, Fang He, Ganghui Chen, Linlin Bai, Kaiyu He, Fang Zhang*, Xiahong Xu*",
       "role": "corresponding",
-      "if": 7.3
+      "if": 7.3,
+      "co_first": [
+        "Xueyun Chen",
+        "Liu Wang"
+      ],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Xiahong Xu"
+      ]
     },
     {
       "title": "Effect of pH, ionic strength, chitosan deacetylation on the stability and rheological properties of O/W emulsions formulated with chitosan/casein complexes",
@@ -362,9 +505,16 @@
       "year": "2021",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Fang Zhang†, Xixi Cai†, Lan Ding, Shaoyun Wang*",
+      "authors": "Fang Zhang#, Xixi Cai#, Lan Ding, Shaoyun Wang*",
       "role": "first",
-      "if": 13.8
+      "if": 13.8,
+      "co_first": [
+        "Fang Zhang",
+        "Xixi Cai"
+      ],
+      "co_corresponding": [
+        "Shaoyun Wang"
+      ]
     },
     {
       "title": "Interactions of the Cocaine and Quinine Aptamer with Gold Nanoparticles under the Dilute Biosensor and Concentrated NMR Conditions",
@@ -374,7 +524,11 @@
       "volume_issue_page": "",
       "authors": "Fang Zhang, Juewen Liu*",
       "role": "first",
-      "if": 3.9
+      "if": 3.9,
+      "co_first": [],
+      "co_corresponding": [
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Label-Free Colorimetric Biosensors Based on Aptamers and Gold Nanoparticles: A Critical Review",
@@ -384,7 +538,11 @@
       "volume_issue_page": "",
       "authors": "Fang Zhang, Juewen Liu*",
       "role": "first",
-      "if": 3.5
+      "if": 3.5,
+      "co_first": [],
+      "co_corresponding": [
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Self-microemulsifying delivery system of WPI-Dai nanocomplex mixed with nonionic surfactant and its superiority in delivering daidzein",
@@ -392,10 +550,12 @@
       "year": "2020",
       "doi": "10.1016/J.FOODHYD.2020.105952",
       "volume_issue_page": "108:105952",
-      "authors": "",
+      "authors": "Fujia Yang, Caili Fu, Liang Lv, Fang Zhang, Shaoyun Wang",
       "role": "co-author",
       "if": 13.8,
-      "month": 11
+      "month": 11,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Rapid on-site detection of genetically modified soybean products by real-time loop-mediated isothermal amplification coupled with a designed portable amplifier",
@@ -403,10 +563,12 @@
       "year": "2020",
       "doi": "10.1016/J.FOODCHEM.2020.126819",
       "volume_issue_page": "323:126819",
-      "authors": "",
+      "authors": "Hui Wu, Xianjun Zhang, Baoqiang Wu, Cheng Qian, Fang Zhang, Liu Wang, Zunzhong Ye, Jian Wu",
       "role": "co-author",
       "if": 10.4,
-      "month": 9
+      "month": 9,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Identification of pork in raw meat or cooked meatballs within 20 min using rapid PCR coupled with visual detection",
@@ -414,10 +576,12 @@
       "year": "2020",
       "doi": "10.1016/J.FOODCONT.2019.106905",
       "volume_issue_page": "109:106905",
-      "authors": "",
+      "authors": "Hui Wu, Cheng Qian, Rui Wang, Cui Wu, Zhen Wang, Liu Wang, Mengyao Zhang, Zunzhong Ye, Fang Zhang, Jin-song He, Jian Wu",
       "role": "co-author",
       "if": 6.0,
-      "month": 3
+      "month": 3,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Contamination-free visual detection of CaMV35S promoter amplicon using CRISPR/Cas12a coupled with a designed reaction vessel: Rapid, specific and sensitive",
@@ -425,10 +589,12 @@
       "year": "2020",
       "doi": "10.1016/J.ACA.2019.10.042",
       "volume_issue_page": "1096:130-137",
-      "authors": "",
+      "authors": "Hui Wu, Jin-song He, Fang Zhang, Jianfeng Ping, Jian Wu",
       "role": "co-author",
       "if": 6.2,
-      "month": 2
+      "month": 2,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Visual detection for nucleic acid-based techniques as potential on-site detection methods. A review",
@@ -436,10 +602,12 @@
       "year": "2020",
       "doi": "10.1016/J.ACA.2019.11.056",
       "volume_issue_page": "1099:1-15",
-      "authors": "",
+      "authors": "Mengyao Zhang, Jing Ye, Jin-song He, Fang Zhang, Jianfeng Ping, Cheng Qian, Jian Wu",
       "role": "co-author",
       "if": 6.2,
-      "month": 2
+      "month": 2,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Sensing Adenosine and ATP by Aptamers and Gold Nanoparticles: Opposite Trends of Color Change from Domination of Target Adsorption Instead of Aptamer Binding",
@@ -449,7 +617,11 @@
       "volume_issue_page": "",
       "authors": "Fang Zhang, Po-Jung Jimmy Huang, Juewen Liu*",
       "role": "first",
-      "if": 10.3
+      "if": 10.3,
+      "co_first": [],
+      "co_corresponding": [
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Good's buffers have various affinities to gold nanoparticles regulating fluorescent and colorimetric DNA sensing",
@@ -459,7 +631,11 @@
       "volume_issue_page": "",
       "authors": "Po-Jung Jimmy Huang, Jeffy Yang, Kellie Chong, Qianyi Ma, Miao Li, Fang Zhang, Woohyun J. Moon, Guomei Zhang, Juewen Liu*",
       "role": "co-author",
-      "if": 7.5
+      "if": 7.5,
+      "co_first": [],
+      "co_corresponding": [
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Opposite salt-dependent stability of i-motif and duplex reflected in a single DNA hairpin nanomachine",
@@ -467,9 +643,14 @@
       "year": "2020",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Fang Zhang, Biwu Liu, Anand Lopez, Shaoyun Wang, Juewen Liu",
+      "authors": "Fang Zhang, Biwu Liu, Anand Lopez, Shaoyun Wang*, Juewen Liu*",
       "role": "first",
-      "if": 3.5
+      "if": 3.5,
+      "co_first": [],
+      "co_corresponding": [
+        "Shaoyun Wang",
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Detection of chloramphenicol with an aptamer-based colorimetric assay: critical evaluation of specific and unspecific binding of analyte molecules",
@@ -477,9 +658,13 @@
       "year": "2020",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Xiaoqi Tao, Fan He, Xixia Liu, Fang Zhang, Xin Wang, Yuanyuan Peng, Juewen Liu",
+      "authors": "Xiaoqi Tao, Fan He, Xixia Liu, Fang Zhang, Xin Wang, Yuanyuan Peng, Juewen Liu*",
       "role": "co-author",
-      "if": 5.7
+      "if": 5.7,
+      "co_first": [],
+      "co_corresponding": [
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Dopamine and Melamine Binding to Gold Nanoparticles Dominates Their Aptamer-based Label-free Colorimetric Sensing",
@@ -489,7 +674,11 @@
       "volume_issue_page": "",
       "authors": "Xixia Liu, Fan He, Fang Zhang, Zijie Zhang, Zhicheng Huang, Juewen Liu*",
       "role": "co-author",
-      "if": 7.3
+      "if": 7.3,
+      "co_first": [],
+      "co_corresponding": [
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Fluorescein-Stabilized i-Motif DNA and Its Unfolding Leading to a Stronger Adsorption Affinity",
@@ -497,10 +686,12 @@
       "year": "2019",
       "doi": "10.1021/ACS.LANGMUIR.9B01606",
       "volume_issue_page": "35(36):11932-11939",
-      "authors": "",
+      "authors": "Anand Lopez, Biwu Liu, Zhicheng Huang, Fang Zhang, Juewen Liu",
       "role": "co-author",
       "if": 3.9,
-      "month": 9
+      "month": 9,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Uracil-Mediated New Photospacer-Adjacent Motif of Cas12a To Realize Visualized DNA Detection at the Single-Copy Level Free from Contamination",
@@ -508,10 +699,12 @@
       "year": "2019",
       "doi": "10.1021/ACS.ANALCHEM.9B02554",
       "volume_issue_page": "91(17):11362-11366",
-      "authors": "",
+      "authors": "Cheng Qian, Rui Wang, Hui Wu, Fang Zhang, Jian Wu, Liu Wang",
       "role": "co-author",
       "if": 7.3,
-      "month": 9
+      "month": 9,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Alginate-shelled SPI nanoparticle for encapsulation of resveratrol with enhanced colloidal and chemical stability",
@@ -519,10 +712,12 @@
       "year": "2019",
       "doi": "10.1016/J.FOODHYD.2018.12.042",
       "volume_issue_page": "90:313-320",
-      "authors": "",
+      "authors": "Lingtuo Zhang, Fang Zhang, Yapeng Fang, Shaoyun Wang",
       "role": "co-author",
       "if": 13.8,
-      "month": 5
+      "month": 5,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Gold Nanoparticles Adsorb DNA and Aptamer Probes Too Strongly and a Comparison with Graphene Oxide for Biosensing",
@@ -530,9 +725,17 @@
       "year": "2019",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Fang Zhang†,‡ Shaoyun Wang*,† Juewen Liu*,‡",
+      "authors": "Fang Zhang#, Shaoyun Wang#*, Juewen Liu*",
       "role": "first",
-      "if": 7.3
+      "if": 7.3,
+      "co_first": [
+        "Fang Zhang",
+        "Shaoyun Wang"
+      ],
+      "co_corresponding": [
+        "Shaoyun Wang",
+        "Juewen Liu"
+      ]
     },
     {
       "title": "Thermally-induced whey protein isolate-daidzein co-assemblies: Protein-based nanocomplexes as an inhibitor of precipitation/crystallization for hydrophobic drug",
@@ -542,7 +745,12 @@
       "volume_issue_page": "",
       "authors": "Liang Lv, Caili Fu, Fang Zhang*, Shaoyun Wang*",
       "role": "corresponding",
-      "if": 10.4
+      "if": 10.4,
+      "co_first": [],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Shaoyun Wang"
+      ]
     },
     {
       "title": "Fabrication of self-assembled Radix Pseudostellariae protein nanoparticles and the entrapment of curcumin",
@@ -552,7 +760,12 @@
       "volume_issue_page": "",
       "authors": "Qingxia Weng, Xixi Cai, Fang Zhang*, Shaoyun Wang*",
       "role": "corresponding",
-      "if": 10.4
+      "if": 10.4,
+      "co_first": [],
+      "co_corresponding": [
+        "Fang Zhang",
+        "Shaoyun Wang"
+      ]
     },
     {
       "title": "Systematic identification of long non-coding RNAs during pollen development and fertilization in Brassica rapa",
@@ -560,10 +773,12 @@
       "year": "2018",
       "doi": "10.1111/TPJ.14016",
       "volume_issue_page": "96(1):203-222",
-      "authors": "",
+      "authors": "Li Huang, Heng Dong, Dong Zhou, Ming Li, Yanhong Liu, Fang Zhang, Yaoyao Feng, Dongliang Yu, Sue Lin, Jiashu Cao",
       "role": "co-author",
       "if": 6.2,
-      "month": 10
+      "month": 10,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Counting DNA molecules with visual segment-based readouts in minutes",
@@ -573,7 +788,14 @@
       "volume_issue_page": "",
       "authors": "Rui Wang#, Fang Zhang#, Cheng Qian, Cui Wu, Zunzhong Ye, Liu Wang, Wenjuan Qian, Jianfeng Ping, Jian Wu*, Yibin Ying",
       "role": "first",
-      "if": 4.9
+      "if": 4.9,
+      "co_first": [
+        "Rui Wang",
+        "Fang Zhang"
+      ],
+      "co_corresponding": [
+        "Jian Wu"
+      ]
     },
     {
       "title": "Instant, Visual, and Instrument-Free Method for On-Site Screening of GTS 40-3-2 Soybean Based on Body-Heat Triggered Recombinase Polymerase Amplification",
@@ -583,7 +805,14 @@
       "volume_issue_page": "",
       "authors": "Rui Wang#, Fang Zhang#, Liu Wang, Wenjuan Qian, Cheng Qian, Jian Wu*, Yibin Ying",
       "role": "first",
-      "if": 7.3
+      "if": 7.3,
+      "co_first": [
+        "Rui Wang",
+        "Fang Zhang"
+      ],
+      "co_corresponding": [
+        "Jian Wu"
+      ]
     },
     {
       "title": "A powerless on-the-spot detection protocol for transgenic crops within 30 min, from leaf sampling up to results",
@@ -591,10 +820,12 @@
       "year": "2016",
       "doi": "10.1007/s00216-015-9128-x",
       "volume_issue_page": "408(2):657-662",
-      "authors": "",
+      "authors": "Liu Wang, Rui Wang, Yonghua Yu, Fang Zhang, Xiaofu Wang, Yibin Ying, Jian Wu, Junfeng Xu",
       "role": "co-author",
       "if": 4.3,
-      "month": 1
+      "month": 1,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "Portable and amplicon contamination prevention cartridges for DNA amplification coupled to lateral flow detection",
@@ -604,7 +835,9 @@
       "volume_issue_page": "7(9):3692-3696",
       "authors": "Rui Wang, Fang Zhang, Zunzhong Ye, Jian Wu, Liu Wang, Yuan Chen, Xiaofu Wang, Junfeng Xu",
       "role": "co-author",
-      "if": 3.0
+      "if": 3.0,
+      "co_first": [],
+      "co_corresponding": []
     },
     {
       "title": "The detection of T-Nos, a genetic element present in GMOs, by cross-priming isothermal amplification with real-time fluorescence",
@@ -612,9 +845,13 @@
       "year": "2014",
       "doi": "",
       "volume_issue_page": "",
-      "authors": "Fang Zhang, Liu Wang, Kai Fan, Jian Wu, Yibin Ying",
+      "authors": "Fang Zhang, Liu Wang, Kai Fan, Jian Wu*, Yibin Ying",
       "role": "first",
-      "if": 4.3
+      "if": 4.3,
+      "co_first": [],
+      "co_corresponding": [
+        "Jian Wu"
+      ]
     },
     {
       "title": "Simple Screening Strategy with Only Water Bath Needed for the Identification of Insect-Resistant Genetically Modified Rice",
@@ -624,7 +861,11 @@
       "volume_issue_page": "",
       "authors": "Fang Zhang, Liu Wang, Rui Wang, Yibin Ying, Jian Wu*",
       "role": "first",
-      "if": 7.3
+      "if": 7.3,
+      "co_first": [],
+      "co_corresponding": [
+        "Jian Wu"
+      ]
     },
     {
       "title": "Tracing phosphate ions generated during DNA amplification and its simple use for visual detection of isothermal amplified products",
@@ -634,7 +875,11 @@
       "volume_issue_page": "",
       "authors": "Fang Zhang, Rui Wang, Liu Wang, Jian Wu*, Yibin Ying",
       "role": "first",
-      "if": 4.9
+      "if": 4.9,
+      "co_first": [],
+      "co_corresponding": [
+        "Jian Wu"
+      ]
     },
     {
       "title": "Portable pH-inspired electrochemical detection of DNA amplification",
@@ -644,7 +889,11 @@
       "volume_issue_page": "",
       "authors": "Fang Zhang, Jian Wu*, Rui Wang, Liu Wang, Yibin Ying",
       "role": "first",
-      "if": 4.9
+      "if": 4.9,
+      "co_first": [],
+      "co_corresponding": [
+        "Jian Wu"
+      ]
     },
     {
       "title": "On-point detection of GM rice in 20 minutes with pullulan as CPA acceleration additive",
@@ -654,7 +903,9 @@
       "volume_issue_page": "6(23):9198-9201",
       "authors": "Rui Wang, Jian Wu, Fang Zhang, Liu Wang, Feng Ji",
       "role": "co-author",
-      "if": 3.0
+      "if": 3.0,
+      "co_first": [],
+      "co_corresponding": []
     }
   ],
   "funding": [
