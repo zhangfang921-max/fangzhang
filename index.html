@@ -211,7 +211,14 @@ footer { background: #fff; color: var(--muted); text-align: center; padding: 24p
   </section>
 </main>
 
-<footer>© <span id="foot-year"></span> Fang Zhang · Department of Food Science and Nutrition, The Hong Kong Polytechnic University · <a href="javascript:void(0)" id="version-toggle"></a></footer>
+<footer>
+  <div style="display:flex;justify-content:center;align-items:center;gap:28px;margin-bottom:14px;flex-wrap:wrap;">
+    <img src="assets/logos/PolyU-Logo.png" style="height:50px;object-fit:contain;" title="The Hong Kong Polytechnic University" />
+    <img src="assets/logos/PolyU_FSN_logo.png" style="height:50px;object-fit:contain;" title="Department of Food Science and Nutrition" />
+    <img src="assets/logos/RIM-LOGO.png" style="height:50px;object-fit:contain;" title="Research Institute of Microbiology (微生物研究院)" />
+  </div>
+  <div>© <span id="foot-year"></span> Fang Zhang · Department of Food Science and Nutrition, The Hong Kong Polytechnic University · <a href="javascript:void(0)" id="version-toggle"></a></div>
+</footer>
 
 <script>
 // 加载 data.json
@@ -273,6 +280,10 @@ async function render(D) {
       const label = k.replace('_',' ').replace(/\b\w/g, c => c.toUpperCase());
       links.innerHTML += `<a href="${v}" target="_blank">${label}</a>`;
     }
+  }
+  // 分享版：h-links 行右侧加 ResearchGate 完整列表链接
+  if (window.__SHARE__ && p.links && p.links.researchgate) {
+    links.innerHTML += `<a href="${p.links.researchgate}" target="_blank" style="background:#0066cc;color:#fff;border-color:#0066cc;">View full publication list &amp; metrics on ResearchGate →</a>`;
   }
   // metrics（完整版显示数字；分享版不显示——ResearchGate 链接已在 h-links 区）
   const pubs = D.publications;

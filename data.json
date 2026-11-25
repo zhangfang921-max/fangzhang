@@ -9,7 +9,7 @@
     "title": "Research Assistant Professor",
     "department": "Department of Food Science and Nutrition",
     "institution": "The Hong Kong Polytechnic University",
-    "email": "fang9.zhang@polyu.edu.hk",
+    "email": "zhangfang921@gmail.com",
     "location": "Hong Kong",
     "headshot": "assets/headshot.jpg",
     "links": {
@@ -1484,6 +1484,13 @@
   ],
   "news": [
     {
+      "date": "2026-11-20",
+      "title": "Anqi Wu & Minxi Zhao's first first-authored paper",
+      "detail": "Congrats to Anqi Wu and Minxi Zhao on publishing their first first-authored paper in Analytical Chemistry!",
+      "tag": "Publication",
+      "photos": []
+    },
+    {
       "date": "2026-11",
       "tag": "Invited Talk",
       "title": "Invited talk at CRISPR BUILD 2026 (CRISPR Diagnostics Developer Conference)",
@@ -1491,6 +1498,13 @@
       "photos": [
         "assets/photos/202611_CRISPR_Builder_1st/Weixin Image_20261125140134_174_398.jpg"
       ]
+    },
+    {
+      "date": "2026-10-01",
+      "title": "CRISPR-Scan published in Advanced Science",
+      "detail": "Congrats! Our CRISPR-Scan paper — Cas13a mismatch tolerance enabled ultra-multiplexed detection of same-site indels in acute myeloid leukemia — has been published in Advanced Science.",
+      "tag": "Publication",
+      "photos": []
     }
   ],
   "team": []
