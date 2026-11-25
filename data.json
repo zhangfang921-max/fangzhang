@@ -50,7 +50,9 @@
         "desc": "Nanomaterials, machine learning, and emerging protein tools for faster, simpler, and cheaper detection solutions.",
         "image": "assets/directions/direction3_nano.svg"
       }
-    ]
+    ],
+    "vision": "Advancing rapid, accessible and affordable diagnostics across the One Health continuum.",
+    "mission": "Our group engineers functional nucleic acids — aptamers, DNAzymes, G-quadruplexes — and nucleic acid-guided proteins (CRISPR/Cas, TtAgo, Tas) to build faster, simpler and cheaper biosensing platforms. We integrate AI/machine learning and nanomaterials to serve plant, animal, food, environmental and medical diagnostics."
   },
   "publications": [
     {
@@ -83,7 +85,8 @@
         "Rui Wang"
       ],
       "authors_short": "Bai L, Wang B, Shi M, Liu D, Ji H, Wang T, Wang Z, Guo K, Dou X, Qian C, Zhang F, Wang Y, Mao H, Wang R*",
-      "journal_abbr": "Adv Sci"
+      "journal_abbr": "Adv Sci",
+      "highlight": "Ultra-multiplexed detection of same-site indels in acute myeloid leukemia enabled by Cas13a mismatch tolerance."
     },
     {
       "title": "Rapid Broad-Spectrum Colorimetric Detection of Bacteria Using Polylysine-Mediated Gold Nanoparticle Aggregation",
@@ -100,7 +103,8 @@
         "Sheng Chen"
       ],
       "authors_short": "Chen B, Wu Y, Zhang F, Yang G, Chen S*",
-      "journal_abbr": "Anal Chem"
+      "journal_abbr": "Anal Chem",
+      "highlight": "Rapid broad-spectrum colorimetric detection of bacteria via polysine-mediated gold nanoparticle aggregation."
     },
     {
       "title": "A highly sensitive universal modularized CRISPR/Cas14a system for antibiotic sensing",
@@ -168,7 +172,8 @@
       "co_first": [],
       "co_corresponding": [],
       "authors_short": "Liu S, Hu Y, Zheng M, Zhang F, Yu Z, Sun Q, Tang D, Weng Z, Ye Z",
-      "journal_abbr": "ACS Sens"
+      "journal_abbr": "ACS Sens",
+      "highlight": "A CRISPR/Cas12a–MXene nanozyme platform for universal trace DNA detection."
     },
     {
       "title": "Rapid quality detection in colored potatoes during alternating cold and ambient storage: Utilizing absorption and scattering properties",
@@ -330,7 +335,8 @@
         "Chun Kit Kwok"
       ],
       "authors_short": "Zhang F#*, Liew SW#, Lam SY#, Kwok CK*",
-      "journal_abbr": "Trends Chem"
+      "journal_abbr": "Trends Chem",
+      "highlight": "Review of nucleic acid-guided protein-empowered sensing across the One Health continuum."
     },
     {
       "title": "Multiplex detection methods for mycotoxins in agricultural products: A systematic review",
@@ -369,7 +375,8 @@
         "Zuquan Weng"
       ],
       "authors_short": "Gao L#, Zheng H#, Hu Y, Zhong Y, Jiang L, Wu Y, Yan F, Huang D, Li J, Zhang F*, Lin Z, Wang M*, Weng Z*",
-      "journal_abbr": "Sens Actuators B Chem"
+      "journal_abbr": "Sens Actuators B Chem",
+      "highlight": "Fluorescent biosensor based on MB-APT for sensitive and selective detection."
     },
     {
       "title": "Aptamer-based self-assembled nanomicelle enables efficient and targeted drug delivery",
@@ -386,7 +393,8 @@
         "Fang Zhang"
       ],
       "authors_short": "Chen G, Mao D, Wang X, Chen J, Gu C, Huang S, Yang Y*, Zhang F*, Tan W",
-      "journal_abbr": "J Nanobiotechnol"
+      "journal_abbr": "J Nanobiotechnol",
+      "highlight": "Aptamer-based self-assembled nanomicelle for enhanced target recognition."
     },
     {
       "title": "Updated toolkits for nucleic acid-based biosensors",
@@ -404,7 +412,8 @@
         "Zhenyu Lin"
       ],
       "authors_short": "Zhang F*, Chen G, Gao C, Huang S, Mahu Y, Luo F, Wang L*, Lin Z*",
-      "journal_abbr": "Trends Analyt Chem"
+      "journal_abbr": "Trends Analyt Chem",
+      "highlight": "Updated toolkits for nucleic acid-based biosensing and diagnostics."
     },
     {
       "title": "Graphene oxide assisting the visual detection of Salmonella by CRISPR/Cas12a",
@@ -489,7 +498,8 @@
         "Xiahong Xu"
       ],
       "authors_short": "Wang L, He F, Chen X, He K, Bai L, Wang Q, Zhang F*, Xu X*",
-      "journal_abbr": "Sens Actuators B Chem"
+      "journal_abbr": "Sens Actuators B Chem",
+      "highlight": "A CRISPR/Cas12a-based label-free fluorescent platform for pathogen detection."
     },
     {
       "title": "Dual-color blending based visual LAMP for food allergen detection: A strategy with enlarged color variation range and contrast",
@@ -1101,7 +1111,7 @@
       "level": "provincial",
       "status": "active",
       "short": "Fujian Provincial Natural Science Foundation · 2026J001140 · 2026-2029 · RMB 80,000",
-      "logo": ""
+      "logo": "assets/logos/Fujian_KJT.png"
     },
     {
       "name": "Rapid detection of pathogens in cold-chain aquatic products",
@@ -1125,7 +1135,7 @@
       "level": "provincial",
       "status": "completed",
       "short": "Fujian Provincial Natural Science Foundation · 2022J01100 · 2022-2025 · RMB 100,000",
-      "logo": ""
+      "logo": "assets/logos/Fujian_KJT.png"
     },
     {
       "name": "Color-evolution and FRET-based visualized dual pathogen detection",
@@ -1137,7 +1147,7 @@
       "level": "provincial",
       "status": "completed",
       "short": "Fujian Provincial Natural Science Foundation · 2019J01239 · 2019-2022 · RMB 100,000",
-      "logo": ""
+      "logo": "assets/logos/Fujian_KJT.png"
     },
     {
       "name": "Metal-enhanced fluorescence probes and CRISPR/Cas12a-based antibiotic detection",

@@ -156,9 +156,9 @@ footer { background: #fff; color: var(--muted); text-align: center; padding: 24p
   <!-- Research -->
   <section id="sec-research" class="section hidden">
     <h2>Research</h2>
-    <div id="research-statement"></div>
-    <h3>Directions</h3>
-    <div class="directions" id="research-directions"></div>
+    <div id="research-vision"></div>
+    <div id="research-directions"></div>
+    <div id="research-selected"></div>
   </section>
 
   <!-- Publications -->
@@ -303,8 +303,20 @@ async function render(D) {
   }).join('');
   document.getElementById('h-directions').innerHTML = dirs;
   document.getElementById('research-directions').innerHTML = dirs;
-  // statement
-  document.getElementById('research-statement').innerHTML = D.research.statement ? `<p>${D.research.statement}</p>` : '<span class="placeholder">Research statement 待填写</span>';
+  // vision & mission
+  const vis = D.research.vision || '';
+  const mis = D.research.mission || '';
+  document.getElementById('research-vision').innerHTML = (vis || mis) ? `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:26px;">${vis?`<div style="background:#f4f8fc;border-radius:8px;padding:16px;"><h3 style="margin-top:0;">Vision</h3><p style="color:#000;">${vis}</p></div>`:''}${mis?`<div style="background:#f4f8fc;border-radius:8px;padding:16px;"><h3 style="margin-top:0;">Mission</h3><p style="color:#000;">${mis}</p></div>`:''}</div>` : '';
+  // selected publications（近5年代表性论文：IF≥10 或老牌期刊）
+  const selectedPubs = D.publications.filter(p => {
+    const y = parseInt(p.year||0, 10); const ifv = parseFloat(p.if||0);
+    if (y < 2022) return false;
+    return ifv >= 10 || /Analytical Chemistry|ACS Sensors|Biosensors and Bioelectronics|Sensors and Actuators B|Chemical Engineering Journal|Hazardous Materials|Advanced Science/i.test(p.journal||'');
+  }).sort((a,b) => (b.year||0)-(a.year||0));
+  document.getElementById('research-selected').innerHTML = selectedPubs.length ? `<h3 style="margin-top:30px;">Selected Publications</h3>` + selectedPubs.map(p => {
+    const toc = p.toc ? `<img src="${encodeURI(p.toc)}" style="width:96px;height:76px;object-fit:cover;border-radius:4px;margin-left:12px;flex-shrink:0;border:1px solid #e8e8e8;" />` : '';
+    return `<div style="display:flex;align-items:flex-start;padding:10px 0;border-bottom:1px solid #eee;"><div style="flex:1;"><b style="color:#000;">${p.title}</b><div style="font-size:0.9rem;color:#444;margin-top:2px;">${p.journal} ${p.year}${p.volume_issue_page ? ', '+p.volume_issue_page : ''} [IF ${p.if||''}]</div>${p.highlight?`<div style="font-size:0.9rem;color:#333;margin-top:4px;">${p.highlight}</div>`:''}</div>${toc}</div>`;
+  }).join('') : '';
   // recent pubs (最近5篇)
   const recent = pubs.slice(0, 5).map(renderPubItem).join('');
   document.getElementById('h-recent-pubs').innerHTML = recent;
@@ -323,12 +335,12 @@ async function render(D) {
     }
     return `<div class="funding-item"><div class="fund-name">${f.name}</div><div class="fund-meta">${short}</div></div>`;
   }).join('') || '<span class="placeholder">待填写</span>';
-  // Funding 页面底部 logo 墙（资助机构，去重）
-  const seenAgency = new Set();
+  // Funding 页面底部 logo 墙（资助机构，按 logo 文件去重）
+  const seenLogo = new Set();
   const logos = [];
   for (const f of D.funding) {
-    if (f.logo && !seenAgency.has(f.agency)) {
-      seenAgency.add(f.agency);
+    if (f.logo && !seenLogo.has(f.logo)) {
+      seenLogo.add(f.logo);
       logos.push(f);
     }
   }
@@ -352,7 +364,7 @@ async function render(D) {
     }
     return `<div class="funding-item"><div class="fund-name">${name}</div></div>`;
   }).join('') : '<span class="placeholder">待填写</span>';
-  const awardsShown = window.__SHARE__ ? D.awards.filter(a => !a.level || a.level === 'national' || a.level === 'provincial') : D.awards;
+  const awardsShown = window.__SHARE__ ? [] : D.awards;
   document.getElementById('awards-list').innerHTML = awardsShown.length ? awardsShown.map(a => `<div class="funding-item"><div class="fund-name">${typeof a === 'string' ? a : a.name}</div><div class="fund-meta">${typeof a === 'object' ? (a.year||'') + (a.level ? ' · ' + a.level : '') : ''}</div></div>`).join('') : '<span class="placeholder">待填写</span>';
   // news
   document.getElementById('news-list').innerHTML = D.news.length ? D.news.map(n => {
