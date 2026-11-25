@@ -21,8 +21,9 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.65;
   background: #fff;
+  font-size: 17px;
 }
 h1, h2, h3, h4, .brand { font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; letter-spacing: 0.3px; }
 a { color: var(--blue); text-decoration: none; }
@@ -85,12 +86,10 @@ nav ul li a.active { color: var(--blue); border-bottom-color: var(--blue); }
   padding: 6px 14px; border-radius: 20px; cursor: pointer; font-size: 0.85rem;
 }
 .pub-filters button.active { background: var(--navy); color: #fff; border-color: var(--navy); }
-.pub-item { padding: 12px 0; border-bottom: 1px solid var(--border); }
-.pub-authors { font-size: 0.85rem; color: #555; margin-bottom: 2px; line-height: 1.55; }
-.pub-authors b { color: var(--ink); }
-.pub-item .pub-title { font-weight: 600; color: var(--navy); }
-.pub-item .pub-title a { color: var(--navy); }
-.pub-item .pub-meta { font-size: 0.86rem; color: var(--muted); margin-top: 2px; }
+.pub-item { padding: 11px 0; border-bottom: 1px solid var(--border); }
+.pub-ref { font-size: 0.95rem; color: var(--text); line-height: 1.6; }
+.pub-ref a { color: var(--ink); font-weight: 500; }
+.pub-ref b { color: var(--ink); }
 .pub-badge { display: inline-block; font-size: 0.72rem; padding: 1px 8px; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
 .badge-corr { background: #c6f6d5; color: #22543d; }
 .badge-first { background: #bee3f8; color: #2a4365; }
@@ -229,7 +228,7 @@ async function loadData() {
 const NAV = [
   ['home','Home'],['research','Research'],['publications','Publications'],
   ['funding','Funding'],['teaching','Teaching'],['service','Service'],
-  ['awards','Awards'],['news','News'],['team','Team'],['contact','Contact']
+  ['awards','Awards'],['news','News'],['contact','Contact']
 ];
 
 function roleBadge(role) {
@@ -244,17 +243,14 @@ function roleBadge(role) {
 }
 
 function renderPubItem(p) {
+  // GRF Reference 格式：作者(姓缩写, et al.). 标题. 期刊缩写 年份, 卷:页. [IF]
+  const authorsShort = p.authors_short || p.authors || '';
+  const authorsBold = authorsShort.replace(/Zhang F\b/g, '<b>Zhang F</b>').replace(/张芳/g, '<b>张芳</b>');
   const doi = p.doi ? `<a href="https://doi.org/${p.doi}" target="_blank">${p.title}</a>` : p.title;
   const vol = p.volume_issue_page ? p.volume_issue_page : '';
-  const ifStr = p.if ? `<span style="color:#999;font-weight:400;font-style:normal;"> · IF ${p.if}</span>` : '';
-  const meta = `<i>${p.journal}</i>` + (vol ? `, ${vol}` : '') + (p.year ? ` (${p.year})` : '') + ifStr;
-  // 作者列表（CV格式：#共同一作 *通讯；张芳名字加粗）
-  const authorsHtml = p.authors ? p.authors.replace(/Fang Zhang/g, '<b>Fang Zhang</b>').replace(/张芳/g, '<b>张芳</b>') : '';
-  return `<div class="pub-item">
-    ${authorsHtml ? `<div class="pub-authors">${authorsHtml}</div>` : ''}
-    <div class="pub-title">${doi}${roleBadge(p.role)}</div>
-    <div class="pub-meta">${meta}</div>
-  </div>`;
+  const ifStr = p.if ? ` <span style="color:#aaa;font-size:0.82rem;">[IF ${p.if}]</span>` : '';
+  const ref = `${authorsBold}. ${doi}. <i>${p.journal_abbr || p.journal}</i> ${p.year}${vol ? ', ' + vol : ''}.${ifStr}`;
+  return `<div class="pub-item"><div class="pub-ref">${ref}</div></div>`;
 }
 
 async function render(D) {

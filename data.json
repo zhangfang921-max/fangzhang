@@ -64,7 +64,9 @@
       "if": 6.1,
       "month": 1,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "He X, Zhuang Y, You J, Zhang F, Shen F",
+      "journal_abbr": "J Food Eng"
     },
     {
       "title": "CRISPR-Scan: Cas13a Mismatch Tolerance Enabled Ultra-Multiplexed Detection of Same-Site Indels in Acute Myeloid Leukemia",
@@ -79,7 +81,9 @@
       "co_first": [],
       "co_corresponding": [
         "Rui Wang"
-      ]
+      ],
+      "authors_short": "Bai L, Wang B, Shi M, Liu D, Ji H, Wang T, et al.",
+      "journal_abbr": "Adv Sci"
     },
     {
       "title": "Rapid Broad-Spectrum Colorimetric Detection of Bacteria Using Polylysine-Mediated Gold Nanoparticle Aggregation",
@@ -94,7 +98,9 @@
       "co_first": [],
       "co_corresponding": [
         "Sheng Chen"
-      ]
+      ],
+      "authors_short": "Chen B, Wu Y, Zhang F, Yang G, Chen S*",
+      "journal_abbr": "Anal Chem"
     },
     {
       "title": "A highly sensitive universal modularized CRISPR/Cas14a system for antibiotic sensing",
@@ -107,7 +113,9 @@
       "if": 8.3,
       "month": 9,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Huang S, Zeng H, Wu A, Zhao M, Pan N, Liu Z, et al.",
+      "journal_abbr": "Sens Actuators B Chem"
     },
     {
       "title": "Improved prediction for AFB1 in naturally contaminated peanut oil by fusing fluorescence with visible and near-infrared absorption and scattering properties",
@@ -120,7 +128,9 @@
       "if": 6.0,
       "month": 8,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "He X, Xiao Y, Lu Y, Yang X, Zhang F",
+      "journal_abbr": "Food Control"
     },
     {
       "title": "Superhydrophobic sponge generated in situ based on dopamine as cleanup absorbent for multi-residue determination of organophosphorus pesticides in feed",
@@ -135,7 +145,9 @@
       "co_first": [],
       "co_corresponding": [
         "Fang Zhang"
-      ]
+      ],
+      "authors_short": "Wei C, Chen M, Zhong Q, Liu H, Wu M, Li X, et al.",
+      "journal_abbr": "Microchim Acta"
     },
     {
       "title": "A CRISPR/Cas12a−MXene Nanozyme Platform for Universal Detection of Trace DNA",
@@ -148,7 +160,9 @@
       "if": 10.3,
       "month": 6,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Liu S, Hu Y, Zheng M, Zhang F, Yu Z, Sun Q, et al.",
+      "journal_abbr": "ACS Sens"
     },
     {
       "title": "Rapid quality detection in colored potatoes during alternating cold and ambient storage: Utilizing absorption and scattering properties",
@@ -161,7 +175,9 @@
       "if": 7.0,
       "month": 5,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Xiao Y, Wang J, You J, Zhang F, He X",
+      "journal_abbr": "Food Res Int"
     },
     {
       "title": "Reduced Graphene Oxide Coated Melamine Sponge as Cleanup Absorbent for Multi-residue Analysis of Organophosphorus Pesticides in Feed",
@@ -180,7 +196,9 @@
         "Xiaojing Li",
         "Zhenyu Lin",
         "Fang Zhang"
-      ]
+      ],
+      "authors_short": "Wei C#, Chen M#, Zhong Q, Liu H, Wu M, Li X*, et al.",
+      "journal_abbr": "Microchem J"
     },
     {
       "title": "One-pot quick preparation of a magnetic nanocomposite based on aminated/fluorinated carbon nanotubes for the efficient capture of fluoroquinolones in aqueous samples",
@@ -193,7 +211,9 @@
       "if": 6.0,
       "month": 11,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wang S, Fu C, Lin Z, Lin Y, Xu Y, Gao Z, et al.",
+      "journal_abbr": "J Mol Liq"
     },
     {
       "title": "A colorimetric immunoassay for visual detection of zearalenone based on the Fenton reaction on gold nanorods",
@@ -206,7 +226,9 @@
       "if": 3.0,
       "month": 9,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Hu Y, Chen J, Wu S, Zhong Y, Ye J, Ye L, et al.",
+      "journal_abbr": "J Food Meas Charact"
     },
     {
       "title": "Cellulose-like chitosan microfibrils facilitate targeted release and enhance the prolonged residence time of quercetin-selenium nanoparticles for Alzheimer's disease treatment",
@@ -219,7 +241,9 @@
       "if": 6.1,
       "month": 2,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Fang C, Chen Q, Zheng G, Zhang F, Li Z, Mei J, et al.",
+      "journal_abbr": "INTERNATIONAL JOURNAL OF PHARMACEUTICS"
     },
     {
       "title": "Self-assembled DNAzyme based on the nicking enzyme amplification reaction for microRNA detection",
@@ -238,7 +262,9 @@
       "co_corresponding": [
         "Zhenyu Lin",
         "Fang Zhang"
-      ]
+      ],
+      "authors_short": "Zhong H#, Huang X#, Chen G#, Zhang T, Mao D, Lin Z*, et al.",
+      "journal_abbr": "Anal Methods"
     },
     {
       "title": "MVPCR: Multiplex Visual Detection Strategy Based on Ultrafast PCR for Point-of-Care Pathogens Detection Within 10 Min",
@@ -256,7 +282,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Rui Wang"
-      ]
+      ],
+      "authors_short": "Zhang Z#, Wu C#, Bai L, Guo K, Wang T, Liu D, et al.",
+      "journal_abbr": "Phenomics"
     },
     {
       "title": "振动光谱技术在鱼油品质检测中的应用研究进展",
@@ -273,7 +301,9 @@
       "co_corresponding": [
         "张芳",
         "刘智禹"
-      ]
+      ],
+      "authors_short": "马湖伊杉#, 潘南#, 林振宇, 陈晓婷, 吴靖娜, 张芳*, et al.",
+      "journal_abbr": "光谱学与光谱分析"
     },
     {
       "title": "Nucleic acid-guided protein-empowered aquatic contaminants sensing",
@@ -292,7 +322,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Chun Kit Kwok"
-      ]
+      ],
+      "authors_short": "Zhang F#*, Liew SW#, Lam SY#, Kwok CK*",
+      "journal_abbr": "Trends Chem"
     },
     {
       "title": "Multiplex detection methods for mycotoxins in agricultural products: A systematic review",
@@ -307,7 +339,9 @@
       "co_corresponding": [
         "Yuezhong Wu",
         "Zuquan Weng"
-      ]
+      ],
+      "authors_short": "Wei C, Wang H, Li G, Li J, Zhang F, Wu Y*, et al.",
+      "journal_abbr": "Food Control"
     },
     {
       "title": "Fluorescent biosensor based on MB-APT combined with Pt NPs for the detection of infectious bacteria in mouse and human wounds",
@@ -327,7 +361,9 @@
         "Fang Zhang",
         "Meishui Wang",
         "Zuquan Weng"
-      ]
+      ],
+      "authors_short": "Gao L#, Zheng H#, Hu Y, Zhong Y, Jiang L, Wu Y, et al.",
+      "journal_abbr": "Sens Actuators B Chem"
     },
     {
       "title": "Aptamer-based self-assembled nanomicelle enables efficient and targeted drug delivery",
@@ -342,7 +378,9 @@
       "co_corresponding": [
         "Yu Yang",
         "Fang Zhang"
-      ]
+      ],
+      "authors_short": "Chen G, Mao D, Wang X, Chen J, Gu C, Huang S, et al.",
+      "journal_abbr": "J Nanobiotechnol"
     },
     {
       "title": "Updated toolkits for nucleic acid-based biosensors",
@@ -358,7 +396,9 @@
         "Fang Zhang",
         "Lixin Wang",
         "Zhenyu Lin"
-      ]
+      ],
+      "authors_short": "Zhang F*, Chen G, Gao C, Huang S, Mahu Y, Luo F, et al.",
+      "journal_abbr": "Trends Analyt Chem"
     },
     {
       "title": "Graphene oxide assisting the visual detection of Salmonella by CRISPR/Cas12a",
@@ -377,7 +417,9 @@
         "Qiang Wang",
         "Fang Zhang",
         "Xiahong Xu"
-      ]
+      ],
+      "authors_short": "Wang L#, Bai L#, Wang H, He K, Wang R, Wang Q*, et al.",
+      "journal_abbr": "Microchem J"
     },
     {
       "title": "Label-Free Sequence-Specific Visualization of LAMP Amplified Salmonella via DNA Machine Produces G-Quadruplex DNAzyme",
@@ -392,7 +434,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Liu Wang"
-      ]
+      ],
+      "authors_short": "Zeng H, Huang S, Chen Y, Chen M, He K, Fu C, et al.",
+      "journal_abbr": "Biosensors"
     },
     {
       "title": "VIR-CRISPR: Visual in-one-tube ultrafast RT-PCR and CRISPR method for instant SARS-CoV-2 detection",
@@ -405,7 +449,9 @@
       "if": 6.2,
       "month": 6,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wang R, Li Y, Pang Y, Zhang F, Li F, Luo S, et al.",
+      "journal_abbr": "Anal Chim Acta"
     },
     {
       "title": "Properties and Applications of Intelligent Packaging Indicators for Food Spoilage",
@@ -418,7 +464,9 @@
       "if": 4.2,
       "month": 4,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Ma Y, Yang W, Xia Y, Xue W, Wu H, Li Z, et al.",
+      "journal_abbr": "Membranes"
     },
     {
       "title": "A CRISPR/Cas12a-based label-free fluorescent method for visual signal output",
@@ -433,7 +481,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Xiahong Xu"
-      ]
+      ],
+      "authors_short": "Wang L, He F, Chen X, He K, Bai L, Wang Q, et al.",
+      "journal_abbr": "Sens Actuators B Chem"
     },
     {
       "title": "Dual-color blending based visual LAMP for food allergen detection: A strategy with enlarged color variation range and contrast",
@@ -449,7 +499,9 @@
         "Fang Zhang",
         "Jinyuan Sun",
         "Shaoyun Wang"
-      ]
+      ],
+      "authors_short": "Zhang F*, Gao C, Bai L, Chen Y, Liang S, Lv X, et al.",
+      "journal_abbr": "Food Chem X"
     },
     {
       "title": "Rapid, Visual, and Sequence-Specific Detection of Salmonella in Egg Liquid with vis-NEAA, a CRISPR/Cas12 Empowered New Strategy",
@@ -467,7 +519,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Xiahong Xu"
-      ]
+      ],
+      "authors_short": "Bai L#, Wang L#, Huang S, Bai R, Lv X, Sun L, et al.",
+      "journal_abbr": "J Agric Food Chem"
     },
     {
       "title": "Ganoderic acids-rich ethanol extract from Ganoderma lucidum protects against alcoholic liver injury and modulates intestinal microbiota in mice with excessive alcohol intake",
@@ -479,7 +533,9 @@
       "role": "co-author",
       "if": 6.3,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Guo W, Cao Y, You S, Wu Q, Zhang F, Han J, et al.",
+      "journal_abbr": "Curr Res Food Sci"
     },
     {
       "title": "Label-Free Colorimetric Method for Detection of Vibrio parahaemolyticus by Trimming the G-Quadruplex DNAzyme with CRISPR/Cas12a",
@@ -497,7 +553,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Xiahong Xu"
-      ]
+      ],
+      "authors_short": "Chen X#, Wang L#, He F, Chen G, Bai L, He K, et al.",
+      "journal_abbr": "Anal Chem"
     },
     {
       "title": "Effect of pH, ionic strength, chitosan deacetylation on the stability and rheological properties of O/W emulsions formulated with chitosan/casein complexes",
@@ -514,7 +572,9 @@
       ],
       "co_corresponding": [
         "Shaoyun Wang"
-      ]
+      ],
+      "authors_short": "Zhang F#, Cai X#, Ding L, Wang S*",
+      "journal_abbr": "Food Hydrocoll"
     },
     {
       "title": "Interactions of the Cocaine and Quinine Aptamer with Gold Nanoparticles under the Dilute Biosensor and Concentrated NMR Conditions",
@@ -528,7 +588,9 @@
       "co_first": [],
       "co_corresponding": [
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Zhang F, Liu J*",
+      "journal_abbr": "Langmuir"
     },
     {
       "title": "Label-Free Colorimetric Biosensors Based on Aptamers and Gold Nanoparticles: A Critical Review",
@@ -542,7 +604,9 @@
       "co_first": [],
       "co_corresponding": [
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Zhang F, Liu J*",
+      "journal_abbr": "Anal Sens"
     },
     {
       "title": "Self-microemulsifying delivery system of WPI-Dai nanocomplex mixed with nonionic surfactant and its superiority in delivering daidzein",
@@ -555,7 +619,9 @@
       "if": 13.8,
       "month": 11,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Yang F, Fu C, Lv L, Zhang F, Wang S",
+      "journal_abbr": "FOOD HYDROCOLLOIDS"
     },
     {
       "title": "Rapid on-site detection of genetically modified soybean products by real-time loop-mediated isothermal amplification coupled with a designed portable amplifier",
@@ -568,7 +634,9 @@
       "if": 10.4,
       "month": 9,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wu H, Zhang X, Wu B, Qian C, Zhang F, Wang L, et al.",
+      "journal_abbr": "FOOD CHEMISTRY"
     },
     {
       "title": "Identification of pork in raw meat or cooked meatballs within 20 min using rapid PCR coupled with visual detection",
@@ -581,7 +649,9 @@
       "if": 6.0,
       "month": 3,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wu H, Qian C, Wang R, Wu C, Wang Z, Wang L, et al.",
+      "journal_abbr": "FOOD CONTROL"
     },
     {
       "title": "Contamination-free visual detection of CaMV35S promoter amplicon using CRISPR/Cas12a coupled with a designed reaction vessel: Rapid, specific and sensitive",
@@ -594,7 +664,9 @@
       "if": 6.2,
       "month": 2,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wu H, He J, Zhang F, Ping J, Wu J",
+      "journal_abbr": "ANALYTICA CHIMICA ACTA"
     },
     {
       "title": "Visual detection for nucleic acid-based techniques as potential on-site detection methods. A review",
@@ -607,7 +679,9 @@
       "if": 6.2,
       "month": 2,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Zhang M, Ye J, He J, Zhang F, Ping J, Qian C, et al.",
+      "journal_abbr": "ANALYTICA CHIMICA ACTA"
     },
     {
       "title": "Sensing Adenosine and ATP by Aptamers and Gold Nanoparticles: Opposite Trends of Color Change from Domination of Target Adsorption Instead of Aptamer Binding",
@@ -621,7 +695,9 @@
       "co_first": [],
       "co_corresponding": [
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Zhang F, Huang PJ, Liu J*",
+      "journal_abbr": "ACS Sens"
     },
     {
       "title": "Good's buffers have various affinities to gold nanoparticles regulating fluorescent and colorimetric DNA sensing",
@@ -635,7 +711,9 @@
       "co_first": [],
       "co_corresponding": [
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Huang PJ, Yang J, Chong K, Ma Q, Li M, Zhang F, et al.",
+      "journal_abbr": "Chem Sci"
     },
     {
       "title": "Opposite salt-dependent stability of i-motif and duplex reflected in a single DNA hairpin nanomachine",
@@ -650,7 +728,9 @@
       "co_corresponding": [
         "Shaoyun Wang",
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Zhang F, Liu B, Lopez A, Wang S*, Liu J*",
+      "journal_abbr": "Nanotechnology"
     },
     {
       "title": "Detection of chloramphenicol with an aptamer-based colorimetric assay: critical evaluation of specific and unspecific binding of analyte molecules",
@@ -664,7 +744,9 @@
       "co_first": [],
       "co_corresponding": [
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Tao X, He F, Liu X, Zhang F, Wang X, Peng Y, et al.",
+      "journal_abbr": "Microchim Acta"
     },
     {
       "title": "Dopamine and Melamine Binding to Gold Nanoparticles Dominates Their Aptamer-based Label-free Colorimetric Sensing",
@@ -678,7 +760,9 @@
       "co_first": [],
       "co_corresponding": [
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Liu X, He F, Zhang F, Zhang Z, Huang Z, Liu J*",
+      "journal_abbr": "Anal Chem"
     },
     {
       "title": "Fluorescein-Stabilized i-Motif DNA and Its Unfolding Leading to a Stronger Adsorption Affinity",
@@ -691,7 +775,9 @@
       "if": 3.9,
       "month": 9,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Lopez A, Liu B, Huang Z, Zhang F, Liu J",
+      "journal_abbr": "LANGMUIR"
     },
     {
       "title": "Uracil-Mediated New Photospacer-Adjacent Motif of Cas12a To Realize Visualized DNA Detection at the Single-Copy Level Free from Contamination",
@@ -704,7 +790,9 @@
       "if": 7.3,
       "month": 9,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Qian C, Wang R, Wu H, Zhang F, Wu J, Wang L",
+      "journal_abbr": "ANALYTICAL CHEMISTRY"
     },
     {
       "title": "Alginate-shelled SPI nanoparticle for encapsulation of resveratrol with enhanced colloidal and chemical stability",
@@ -717,7 +805,9 @@
       "if": 13.8,
       "month": 5,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Zhang L, Zhang F, Fang Y, Wang S",
+      "journal_abbr": "FOOD HYDROCOLLOIDS"
     },
     {
       "title": "Gold Nanoparticles Adsorb DNA and Aptamer Probes Too Strongly and a Comparison with Graphene Oxide for Biosensing",
@@ -735,7 +825,9 @@
       "co_corresponding": [
         "Shaoyun Wang",
         "Juewen Liu"
-      ]
+      ],
+      "authors_short": "Zhang F#, Wang S#*, Liu J*",
+      "journal_abbr": "Anal Chem"
     },
     {
       "title": "Thermally-induced whey protein isolate-daidzein co-assemblies: Protein-based nanocomplexes as an inhibitor of precipitation/crystallization for hydrophobic drug",
@@ -750,7 +842,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Shaoyun Wang"
-      ]
+      ],
+      "authors_short": "Lv L, Fu C, Zhang F*, Wang S*",
+      "journal_abbr": "Food Chem"
     },
     {
       "title": "Fabrication of self-assembled Radix Pseudostellariae protein nanoparticles and the entrapment of curcumin",
@@ -765,7 +859,9 @@
       "co_corresponding": [
         "Fang Zhang",
         "Shaoyun Wang"
-      ]
+      ],
+      "authors_short": "Weng Q, Cai X, Zhang F*, Wang S*",
+      "journal_abbr": "Food Chem"
     },
     {
       "title": "Systematic identification of long non-coding RNAs during pollen development and fertilization in Brassica rapa",
@@ -778,7 +874,9 @@
       "if": 6.2,
       "month": 10,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Huang L, Dong H, Zhou D, Li M, Liu Y, Zhang F, et al.",
+      "journal_abbr": "Plant J"
     },
     {
       "title": "Counting DNA molecules with visual segment-based readouts in minutes",
@@ -795,7 +893,9 @@
       ],
       "co_corresponding": [
         "Jian Wu"
-      ]
+      ],
+      "authors_short": "Wang R#, Zhang F#, Qian C, Wu C, Ye Z, Wang L, et al.",
+      "journal_abbr": "Chem Commun"
     },
     {
       "title": "Instant, Visual, and Instrument-Free Method for On-Site Screening of GTS 40-3-2 Soybean Based on Body-Heat Triggered Recombinase Polymerase Amplification",
@@ -812,7 +912,9 @@
       ],
       "co_corresponding": [
         "Jian Wu"
-      ]
+      ],
+      "authors_short": "Wang R#, Zhang F#, Wang L, Qian W, Qian C, Wu J*, et al.",
+      "journal_abbr": "Anal Chem"
     },
     {
       "title": "A powerless on-the-spot detection protocol for transgenic crops within 30 min, from leaf sampling up to results",
@@ -825,7 +927,9 @@
       "if": 4.3,
       "month": 1,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wang L, Wang R, Yu Y, Zhang F, Wang X, Ying Y, et al.",
+      "journal_abbr": "Anal Bioanal Chem"
     },
     {
       "title": "Portable and amplicon contamination prevention cartridges for DNA amplification coupled to lateral flow detection",
@@ -837,7 +941,9 @@
       "role": "co-author",
       "if": 3.0,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wang R, Zhang F, Ye Z, Wu J, Wang L, Chen Y, et al.",
+      "journal_abbr": "Anal Methods"
     },
     {
       "title": "The detection of T-Nos, a genetic element present in GMOs, by cross-priming isothermal amplification with real-time fluorescence",
@@ -851,7 +957,9 @@
       "co_first": [],
       "co_corresponding": [
         "Jian Wu"
-      ]
+      ],
+      "authors_short": "Zhang F, Wang L, Fan K, Wu J*, Ying Y",
+      "journal_abbr": "Anal Bioanal Chem"
     },
     {
       "title": "Simple Screening Strategy with Only Water Bath Needed for the Identification of Insect-Resistant Genetically Modified Rice",
@@ -865,7 +973,9 @@
       "co_first": [],
       "co_corresponding": [
         "Jian Wu"
-      ]
+      ],
+      "authors_short": "Zhang F, Wang L, Wang R, Ying Y, Wu J*",
+      "journal_abbr": "Anal Chem"
     },
     {
       "title": "Tracing phosphate ions generated during DNA amplification and its simple use for visual detection of isothermal amplified products",
@@ -879,7 +989,9 @@
       "co_first": [],
       "co_corresponding": [
         "Jian Wu"
-      ]
+      ],
+      "authors_short": "Zhang F, Wang R, Wang L, Wu J*, Ying Y",
+      "journal_abbr": "Chem Commun"
     },
     {
       "title": "Portable pH-inspired electrochemical detection of DNA amplification",
@@ -893,7 +1005,9 @@
       "co_first": [],
       "co_corresponding": [
         "Jian Wu"
-      ]
+      ],
+      "authors_short": "Zhang F, Wu J*, Wang R, Wang L, Ying Y",
+      "journal_abbr": "Chem Commun"
     },
     {
       "title": "On-point detection of GM rice in 20 minutes with pullulan as CPA acceleration additive",
@@ -905,7 +1019,9 @@
       "role": "co-author",
       "if": 3.0,
       "co_first": [],
-      "co_corresponding": []
+      "co_corresponding": [],
+      "authors_short": "Wang R, Wu J, Zhang F, Wang L, Ji F",
+      "journal_abbr": "Anal Methods"
     }
   ],
   "funding": [
