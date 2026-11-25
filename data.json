@@ -108,13 +108,17 @@
       "year": "2026",
       "doi": "10.1016/j.snb.2026.139657",
       "volume_issue_page": "463:139657",
-      "authors": "Shuqin Huang, Huan Zeng, Anqi Wu, Minxi Zhao, Nan Pan, Zhiyu Liu, Xueming He, Sheng Chen, Liu Wang, Chun Kit Kwok, Fang Zhang",
+      "authors": "Huang S, Zeng H, Wu A, Zhao M, Pan N, Liu Z, He X, Chen S, Wang L*, Kwok CK*, Zhang F*",
       "role": "co-author",
       "if": 8.3,
       "month": 9,
       "co_first": [],
-      "co_corresponding": [],
-      "authors_short": "Huang S, Zeng H, Wu A, Zhao M, Pan N, Liu Z, He X, Chen S, Wang L, Kwok CK, Zhang F",
+      "co_corresponding": [
+        "Liu Wang",
+        "Chun Kit Kwok",
+        "Fang Zhang"
+      ],
+      "authors_short": "Huang S, Zeng H, Wu A, Zhao M, Pan N, Liu Z, He X, Chen S, Wang L*, Kwok CK*, Zhang F*",
       "journal_abbr": "Sens Actuators B Chem"
     },
     {
@@ -123,13 +127,15 @@
       "year": "2026",
       "doi": "10.1016/j.foodcont.2026.112082",
       "volume_issue_page": "186:112082",
-      "authors": "Xueming He, Yuanji Xiao, Yongnan Lu, Xiaoyun Yang, Fang Zhang",
+      "authors": "He X*, Xiao Y, Lu Y, Yang X, Zhang F",
       "role": "co-author",
       "if": 6.0,
       "month": 8,
       "co_first": [],
-      "co_corresponding": [],
-      "authors_short": "He X, Xiao Y, Lu Y, Yang X, Zhang F",
+      "co_corresponding": [
+        "Xueming He"
+      ],
+      "authors_short": "He X*, Xiao Y, Lu Y, Yang X, Zhang F",
       "journal_abbr": "Food Control"
     },
     {
