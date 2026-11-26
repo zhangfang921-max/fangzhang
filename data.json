@@ -78,7 +78,7 @@
    "year": "2026",
    "doi": "10.1002/advs.78229",
    "volume_issue_page": "e78229",
-   "authors": "Bai L, Wang B, Shi M, Liu D, Ji H, Wang T, Wang Z, Guo K, Dou X, Qian C, Zhang F, Wang Y, Mao H, Wang R",
+   "authors": "Bai L, Wang B, Shi M, Liu D, Ji H, Wang T, Wang Z, Guo K, Dou X, Qian C, Zhang F, Wang Y, Mao H, Wang R*",
    "role": "co-author",
    "if": 14.1,
    "month": 10,
@@ -86,7 +86,7 @@
    "co_corresponding": [
     "Rui Wang"
    ],
-   "authors_short": "Bai L, Wang B, Shi M, Liu D, Ji H, Wang T, Wang Z, Guo K, Dou X, Qian C, Zhang F, Wang Y, Mao H, Wang R",
+   "authors_short": "Bai L, Wang B, Shi M, Liu D, Ji H, Wang T, Wang Z, Guo K, Dou X, Qian C, Zhang F, Wang Y, Mao H, Wang R*",
    "journal_abbr": "Adv Sci",
    "highlight": "Ultra-multiplexed detection of same-site indels in acute myeloid leukemia enabled by Cas13a mismatch tolerance."
   },
@@ -329,7 +329,7 @@
    "year": "2025",
    "doi": "",
    "volume_issue_page": "",
-   "authors": "马湖伊杉¹, ², 潘南², 林振宇³, 陈晓婷², 吴靖娜⁴, 张芳¹*, 刘智禹²*",
+   "authors": "马湖伊杉¹, ², 潘南², 林振宇³, 陈晓婷², 吴靖娜⁴, 张芳¹, 刘智禹²",
    "role": "co-author",
    "co_first": [
     "马湖伊杉",
@@ -339,7 +339,7 @@
     "张芳",
     "刘智禹"
    ],
-   "authors_short": "马湖伊杉¹, ², 潘南², 林振宇³, 陈晓婷², 吴靖娜⁴, 张芳¹*, 刘智禹²*",
+   "authors_short": "马湖伊杉¹, ², 潘南², 林振宇³, 陈晓婷², 吴靖娜⁴, 张芳¹, 刘智禹²",
    "journal_abbr": "光谱学与光谱分析"
   },
   {
@@ -348,7 +348,7 @@
    "year": "2025",
    "doi": "10.1016/j.trechm.2025.09.013",
    "volume_issue_page": "",
-   "authors": "Zhang F*, Liew SW, Lam SY, Kwok CK*",
+   "authors": "Zhang F#*, Liew SW#, Lam SY#, Kwok CK*",
    "role": "co-first & corresponding",
    "if": 11.1,
    "co_first": [
@@ -360,7 +360,7 @@
     "Fang Zhang",
     "Chun Kit Kwok"
    ],
-   "authors_short": "Zhang F*, Liew SW, Lam SY, Kwok CK*",
+   "authors_short": "Zhang F#*, Liew SW#, Lam SY#, Kwok CK*",
    "journal_abbr": "Trends Chem",
    "highlight": "Review of nucleic acid-guided protein-empowered sensing across the One Health continuum."
   },
@@ -370,7 +370,7 @@
    "year": "2024",
    "doi": "10.1016/j.foodcont.2023.110207",
    "volume_issue_page": "158:110207",
-   "authors": "Wei C, Wang H, Li G, Li J, Zhang F, Wu Y**, Weng Z*",
+   "authors": "Wei C, Wang H, Li G, Li J, Zhang F, Wu Y*, Weng Z*",
    "role": "co-author",
    "if": 6.0,
    "co_first": [],
@@ -378,7 +378,7 @@
     "Yuezhong Wu",
     "Zuquan Weng"
    ],
-   "authors_short": "Wei C, Wang H, Li G, Li J, Zhang F, Wu Y**, Weng Z*",
+   "authors_short": "Wei C, Wang H, Li G, Li J, Zhang F, Wu Y*, Weng Z*",
    "journal_abbr": "Food Control"
   },
   {
@@ -387,7 +387,7 @@
    "year": "2023",
    "doi": "10.1016/j.snb.2023.134318",
    "volume_issue_page": "393:134318",
-   "authors": "Gao¹ L, Zheng¹ H, Hu Y, Zhong Y, Jiang L, Wu Y, Yan F, Huang D, Li J, Zhang F*, Lin Z, Wang M**, Weng Z*",
+   "authors": "Gao¹ L, Zheng¹ H, Hu Y, Zhong Y, Jiang L, Wu Y, Yan F, Huang D, Li J, Zhang F*, Lin Z, Wang M*, Weng Z*",
    "role": "corresponding",
    "if": 8.3,
    "month": 10,
@@ -400,7 +400,7 @@
     "Meishui Wang",
     "Zuquan Weng"
    ],
-   "authors_short": "Gao¹ L, Zheng¹ H, Hu Y, Zhong Y, Jiang L, Wu Y, Yan F, Huang D, Li J, Zhang F*, Lin Z, Wang M**, Weng Z*",
+   "authors_short": "Gao¹ L, Zheng¹ H, Hu Y, Zhong Y, Jiang L, Wu Y, Yan F, Huang D, Li J, Zhang F*, Lin Z, Wang M*, Weng Z*",
    "journal_abbr": "Sens Actuators B Chem",
    "highlight": "Fluorescent biosensor based on MB-APT for sensitive and selective detection."
   },
@@ -428,7 +428,7 @@
    "year": "2023",
    "doi": "10.1016/j.trac.2023.116943",
    "volume_issue_page": "",
-   "authors": "Zhang F**, Chen G, Gao C, Huang S, Mahu Y, Luo F, Wang L***, Lin Z*",
+   "authors": "Zhang F*, Chen G, Gao C, Huang S, Mahu Y, Luo F, Wang L*, Lin Z*",
    "role": "corresponding",
    "if": 13.1,
    "co_first": [],
@@ -437,7 +437,7 @@
     "Lixin Wang",
     "Zhenyu Lin"
    ],
-   "authors_short": "Zhang F**, Chen G, Gao C, Huang S, Mahu Y, Luo F, Wang L***, Lin Z*",
+   "authors_short": "Zhang F*, Chen G, Gao C, Huang S, Mahu Y, Luo F, Wang L*, Lin Z*",
    "journal_abbr": "Trends Analyt Chem",
    "highlight": "Updated toolkits for nucleic acid-based biosensing and diagnostics."
   },
@@ -526,7 +526,7 @@
    "year": "2022",
    "doi": "10.1016/j.snb.2022.132368",
    "volume_issue_page": "",
-   "authors": "Wang L, He F, Chen X, He K, Bai L, Wang Q, Zhang F*, Xu X**",
+   "authors": "Wang L, He F, Chen X, He K, Bai L, Wang Q, Zhang F*, Xu X*",
    "role": "corresponding",
    "if": 8.3,
    "co_first": [],
@@ -534,7 +534,7 @@
     "Fang Zhang",
     "Xiahong Xu"
    ],
-   "authors_short": "Wang L, He F, Chen X, He K, Bai L, Wang Q, Zhang F*, Xu X**",
+   "authors_short": "Wang L, He F, Chen X, He K, Bai L, Wang Q, Zhang F*, Xu X*",
    "journal_abbr": "Sens Actuators B Chem",
    "highlight": "A CRISPR/Cas12a-based label-free fluorescent platform for pathogen detection."
   },
@@ -794,7 +794,7 @@
    "year": "2020",
    "doi": "",
    "volume_issue_page": "",
-   "authors": "Zhang F, Liu B, Lopez A, Wang S, Liu J",
+   "authors": "Zhang F, Liu B, Lopez A, Wang S*, Liu J*",
    "role": "first",
    "if": 3.5,
    "co_first": [],
@@ -802,7 +802,7 @@
     "Shaoyun Wang",
     "Juewen Liu"
    ],
-   "authors_short": "Zhang F, Liu B, Lopez A, Wang S, Liu J",
+   "authors_short": "Zhang F, Liu B, Lopez A, Wang S*, Liu J*",
    "journal_abbr": "Nanotechnology"
   },
   {
@@ -811,14 +811,14 @@
    "year": "2020",
    "doi": "",
    "volume_issue_page": "",
-   "authors": "Tao X, He F, Liu X, Zhang F, Wang X, Peng Y, Liu J",
+   "authors": "Tao X, He F, Liu X, Zhang F, Wang X, Peng Y, Liu J*",
    "role": "co-author",
    "if": 5.7,
    "co_first": [],
    "co_corresponding": [
     "Juewen Liu"
    ],
-   "authors_short": "Tao X, He F, Liu X, Zhang F, Wang X, Peng Y, Liu J",
+   "authors_short": "Tao X, He F, Liu X, Zhang F, Wang X, Peng Y, Liu J*",
    "journal_abbr": "Microchim Acta"
   },
   {
@@ -896,7 +896,7 @@
    "year": "2019",
    "doi": "",
    "volume_issue_page": "",
-   "authors": "Zhang† F, Wang ‡S*, Liu †J*, ‡",
+   "authors": "Zhang† F, Wang ‡S, Liu †J, ‡",
    "role": "first",
    "if": 7.3,
    "co_first": [
@@ -907,7 +907,7 @@
     "Shaoyun Wang",
     "Juewen Liu"
    ],
-   "authors_short": "Zhang† F, Wang ‡S*, Liu †J*, ‡",
+   "authors_short": "Zhang† F, Wang ‡S, Liu †J, ‡",
    "journal_abbr": "Anal Chem"
   },
   {
@@ -1005,7 +1005,7 @@
    "year": "2016",
    "doi": "10.1007/s00216-015-9128-x",
    "volume_issue_page": "408(2):657-662",
-   "authors": "Wang L, Wang R, Yu Y, Zhang F, Wang X, Ying Y, Wu J, Xu J",
+   "authors": "Wang L, Wang R, Yu Y, Zhang F, Wang X, Ying Y, Wu J*, Xu J",
    "role": "co-author",
    "if": 4.3,
    "month": 1,
@@ -1013,7 +1013,7 @@
    "co_corresponding": [
     "Jian Wu"
    ],
-   "authors_short": "Wang L, Wang R, Yu Y, Zhang F, Wang X, Ying Y, Wu J, Xu J",
+   "authors_short": "Wang L, Wang R, Yu Y, Zhang F, Wang X, Ying Y, Wu J*, Xu J",
    "journal_abbr": "Anal Bioanal Chem"
   },
   {
@@ -1038,14 +1038,14 @@
    "year": "2014",
    "doi": "",
    "volume_issue_page": "",
-   "authors": "Zhang F, Wang L, Fan K, Wu J, Ying Y",
+   "authors": "Zhang F, Wang L, Fan K, Wu J*, Ying Y",
    "role": "first",
    "if": 4.3,
    "co_first": [],
    "co_corresponding": [
     "Jian Wu"
    ],
-   "authors_short": "Zhang F, Wang L, Fan K, Wu J, Ying Y",
+   "authors_short": "Zhang F, Wang L, Fan K, Wu J*, Ying Y",
    "journal_abbr": "Anal Bioanal Chem"
   },
   {
