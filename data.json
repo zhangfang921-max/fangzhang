@@ -73,6 +73,28 @@
    "journal_abbr": "J Food Eng"
   },
   {
+   "title": "A Low-Cost Non-FRET Reporter System Empowers CRISPR/Cas12a Based Detection",
+   "journal": "Analytical Chemistry",
+   "year": "2026",
+   "doi": "10.1021/acs.analchem.6c01950",
+   "volume_issue_page": "",
+   "authors": "Wu A#, Zhao M#, Wu C, Zou D, Li X, He X, Ping J*, Kwok CK*, Chen S, Zhang F*",
+   "authors_short": "Wu A#, Zhao M#, Wu C, Zou D, Li X, He X, Ping J*, Kwok CK*, Chen S, Zhang F*",
+   "journal_abbr": "Anal Chem",
+   "if": 7.3,
+   "month": 11,
+   "role": "corresponding",
+   "co_first": [
+    "Anqi Wu",
+    "Minxi Zhao"
+   ],
+   "co_corresponding": [
+    "Jianfeng Ping",
+    "Chun Kit Kwok",
+    "Fang Zhang"
+   ]
+  },
+  {
    "title": "CRISPR-Scan: Cas13a Mismatch Tolerance Enabled Ultra-Multiplexed Detection of Same-Site Indels in Acute Myeloid Leukemia",
    "journal": "Advanced Science",
    "year": "2026",
